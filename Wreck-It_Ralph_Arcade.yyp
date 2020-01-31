@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "37a47f4b-1c77-43b5-865d-80f2cb68ae01",
+            "Value": {
+                "id": "c8a532b6-625f-49df-9f34-a7aa707d0be3",
+                "resourcePath": "sprites\\Ralph_Main\\Ralph_Main.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "390d1b2c-377c-4ff0-8cda-4a14fd6d7919",
             "Value": {
                 "id": "7d347f12-f2f4-4369-89ab-f49260fbf197",

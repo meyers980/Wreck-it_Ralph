@@ -2,12 +2,13 @@
 {
     "name": "room0",
     "id": "10c4e0b0-fae3-45b3-b75e-3b4c8a3d1ce2",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "cb841f3d-e37a-438e-858a-4dbdb25b448c",
+        "cdd615ef-882b-457f-b389-719b6f3ca05a"
     ],
     "IsDnD": true,
     "layers": [
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_358FEB82","id": "cb841f3d-e37a-438e-858a-4dbdb25b448c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_358FEB82","objId": "6c788d82-1cc4-401c-b7b7-cbfdc21016ca","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 384,"y": 576},
+{"name": "inst_3F257B43","id": "cdd615ef-882b-457f-b389-719b6f3ca05a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3F257B43","objId": "b50ac09d-d49f-4ef5-be95-7702a829b6e8","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 416,"y": 576}
             ],
             "layers": [
 
@@ -87,12 +89,12 @@
     },
     "roomSettings":     {
         "id": "abc62d97-92a4-42dc-a6b4-88c2aac751d5",
-        "Height": 768,
+        "Height": 640,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1024
+        "Width": 480
     },
     "mvc": "1.0",
     "views": [

@@ -1,11 +1,9 @@
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 21BF6CF8
-/// @DnDArgument : "x" "100"
-/// @DnDArgument : "y" "620"
-/// @DnDArgument : "caption" ""CREDITS ""
-/// @DnDArgument : "var" "global.coins"
-draw_text(100, 620, string("CREDITS ") + string(global.coins));
+/// @DnDHash : 74A1977D
+/// @DnDArgument : "code" "draw_text_colour(100, 620, "CREDITS ", c_yellow, c_yellow, c_yellow, c_yellow, 1);$(13_10)draw_text_colour(178, 620, global.coins, c_yellow, c_yellow, c_yellow, c_yellow, 1);"
+draw_text_colour(100, 620, "CREDITS ", c_yellow, c_yellow, c_yellow, c_yellow, 1);
+draw_text_colour(178, 620, global.coins, c_yellow, c_yellow, c_yellow, c_yellow, 1);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

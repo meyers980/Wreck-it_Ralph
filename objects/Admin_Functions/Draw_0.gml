@@ -1,15 +1,16 @@
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 /// @DnDVersion : 1
-/// @DnDHash : 4314B4E9
+/// @DnDHash : 4F177B4E
 /// @DnDArgument : "x" "240"
-/// @DnDArgument : "caption" ""HIGHSCORE""
-draw_text(240, 0, string("HIGHSCORE") + "");
+/// @DnDArgument : "sprite" "high_score"
+/// @DnDSaveInfo : "sprite" "bc150392-6cb4-463e-8420-12b137eeb63f"
+draw_sprite(high_score, 0, 240, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 63F13C97
 /// @DnDArgument : "x" "240"
-/// @DnDArgument : "y" "20"
+/// @DnDArgument : "y" "15"
 /// @DnDArgument : "caption" ""
 /// @DnDArgument : "var" "global.highscore"
-draw_text(240, 20,  + string(global.highscore));
+draw_text(240, 15,  + string(global.highscore));

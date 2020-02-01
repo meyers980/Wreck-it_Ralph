@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "67b29337-dd25-4df0-b8b0-941e94cdc1ef",
+            "Value": {
+                "id": "e48315c5-5f47-4994-bb6b-c5b7487ec8a4",
+                "resourcePath": "sprites\\start_screen\\start_screen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c788d82-1cc4-401c-b7b7-cbfdc21016ca",
             "Value": {
                 "id": "3b26eb74-0f71-4d51-a2bd-7a23e832233e",
@@ -220,6 +228,14 @@
                 "id": "75edee8c-2519-4eb5-89a6-e9ade142ec3b",
                 "resourcePath": "objects\\Admin_Functions\\Admin_Functions.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bc150392-6cb4-463e-8420-12b137eeb63f",
+            "Value": {
+                "id": "cc2f31b3-2b95-4bc7-aec9-a9f0bf45f051",
+                "resourcePath": "sprites\\high_score\\high_score.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -37,8 +37,8 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 12CBEA26
 	/// @DnDParent : 2F53B2DE
-	/// @DnDArgument : "x" "60"
+	/// @DnDArgument : "x" "70"
 	/// @DnDArgument : "y" "100"
 	/// @DnDArgument : "caption" ""ROM BAD""
-	draw_text(60, 100, string("ROM BAD") + "");
+	draw_text(70, 100, string("ROM BAD") + "");
 }

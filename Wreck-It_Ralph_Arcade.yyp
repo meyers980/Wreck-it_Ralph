@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "071626f4-7473-48a9-b271-59560ea40696",
+            "Value": {
+                "id": "39b2b929-b349-46df-887e-d60654716205",
+                "resourcePath": "sprites\\Walking_Ralph\\Walking_Ralph.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0fb8ab3f-e03c-494f-b247-c9291a62251d",
             "Value": {
                 "id": "87e6b995-9d80-413f-9ddf-3ea498c37a1d",
@@ -108,6 +116,14 @@
                 "id": "7d347f12-f2f4-4369-89ab-f49260fbf197",
                 "resourcePath": "views\\390d1b2c-377c-4ff0-8cda-4a14fd6d7919.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4e6eaf81-a033-41a6-9228-516597342de5",
+            "Value": {
+                "id": "c6eef995-c54d-4183-9af8-171ffde962ab",
+                "resourcePath": "sprites\\Press1pStart\\Press1pStart.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -207,11 +223,27 @@
             }
         },
         {
+            "Key": "c41cd764-48d1-4c95-86a0-a0636b4d0621",
+            "Value": {
+                "id": "fe831558-adfc-4f67-bede-5c46d227c4bb",
+                "resourcePath": "sprites\\insertcoin\\insertcoin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "e104eb67-4fad-4ae2-bb12-e406b0b09ba1",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d61cb773-ec70-4b80-b21f-5c8c869c8a9a",
+            "Value": {
+                "id": "6305347a-99fa-4062-8d3a-83fbd3932c13",
+                "resourcePath": "sprites\\All_Ralphs\\All_Ralphs.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

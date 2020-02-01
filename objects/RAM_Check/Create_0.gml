@@ -14,12 +14,29 @@ ini_open("settings.ini");
 /// @DnDArgument : "default" ""0""
 license = ini_read_real("settings", "license", "0");
 
+/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDVersion : 1
+/// @DnDHash : 520A2F5C
+/// @DnDArgument : "var" "global.highscore"
+/// @DnDArgument : "type" "1"
+/// @DnDArgument : "section" ""settings""
+/// @DnDArgument : "key" ""highscore""
+/// @DnDArgument : "default" "0"
+global.highscore = ini_read_real("settings", "highscore", 0);
+
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
 /// @DnDHash : 76A718EE
 /// @DnDArgument : "font" "Arcade_Font"
 /// @DnDSaveInfo : "font" "25284a8c-3d47-4ff7-8537-6f2ca5c7e21c"
 draw_set_font(Arcade_Font);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+/// @DnDVersion : 1.1
+/// @DnDHash : 025D3382
+/// @DnDArgument : "halign" "fa_center"
+draw_set_halign(fa_center);
+draw_set_valign(fa_top);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1

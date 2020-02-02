@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "80c67530-6600-4f18-be98-2920808d86db",
+            "Value": {
+                "id": "4c305ed0-bc87-46a3-89f6-5a66f0c83ba3",
+                "resourcePath": "objects\\Scorekeeper\\Scorekeeper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "86da9578-2dbf-4c6f-8350-ea4b9324db78",
             "Value": {
                 "id": "d639addb-d0db-4138-afad-35e1206ced3c",

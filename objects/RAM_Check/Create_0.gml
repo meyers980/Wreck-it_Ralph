@@ -14,15 +14,10 @@ ini_open("settings.ini");
 /// @DnDArgument : "default" ""0""
 license = ini_read_real("settings", "license", "0");
 
-/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDAction : YoYo Games.Files.Close_Ini
 /// @DnDVersion : 1
-/// @DnDHash : 520A2F5C
-/// @DnDArgument : "var" "global.highscore"
-/// @DnDArgument : "type" "1"
-/// @DnDArgument : "section" ""settings""
-/// @DnDArgument : "key" ""highscore""
-/// @DnDArgument : "default" "0"
-global.highscore = ini_read_real("settings", "highscore", 0);
+/// @DnDHash : 1196272A
+ini_close();
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1

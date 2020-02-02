@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1394a171-b0b1-415e-a207-939bc627239b",
+            "Value": {
+                "id": "c469357b-401a-4b14-8606-2042cc8b860a",
+                "resourcePath": "datafiles_yy\\scores.ini.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "1c61cf3b-b53e-4a0c-9c18-8208ee7eab8f",
             "Value": {
                 "id": "d926a58f-328c-43da-be54-341bd38ea660",
@@ -244,6 +252,14 @@
                 "id": "f7ee0bfa-67af-4d34-98c6-e34d4d6d4ff9",
                 "resourcePath": "views\\aa2534cf-0610-4b74-b894-da0326fe3cb5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aab1a033-9c71-43ce-a6e0-a75c9b5e918f",
+            "Value": {
+                "id": "e053506f-c0a2-4c17-8b93-d9b0b0d22889",
+                "resourcePath": "objects\\Window_Creator\\Window_Creator.yy",
+                "resourceType": "GMObject"
             }
         },
         {

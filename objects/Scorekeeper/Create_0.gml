@@ -17,8 +17,8 @@ ini_open("scores.ini");
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "section" ""scores""
 /// @DnDArgument : "key" ""score01""
-/// @DnDArgument : "default" ""15000""
-score01 = ini_read_real("scores", "score01", "15000");
+/// @DnDArgument : "default" "15000"
+score01 = ini_read_real("scores", "score01", 15000);
 
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
@@ -27,8 +27,8 @@ score01 = ini_read_real("scores", "score01", "15000");
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "section" ""scores""
 /// @DnDArgument : "key" ""score02""
-/// @DnDArgument : "default" ""10000""
-score02 = ini_read_real("scores", "score02", "10000");
+/// @DnDArgument : "default" "10000"
+score02 = ini_read_real("scores", "score02", 10000);
 
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
@@ -37,8 +37,8 @@ score02 = ini_read_real("scores", "score02", "10000");
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "section" ""scores""
 /// @DnDArgument : "key" ""score03""
-/// @DnDArgument : "default" ""9000""
-score03 = ini_read_real("scores", "score03", "9000");
+/// @DnDArgument : "default" "9000"
+score03 = ini_read_real("scores", "score03", 9000);
 
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
@@ -47,8 +47,8 @@ score03 = ini_read_real("scores", "score03", "9000");
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "section" ""scores""
 /// @DnDArgument : "key" ""score04""
-/// @DnDArgument : "default" ""8000""
-score04 = ini_read_real("scores", "score04", "8000");
+/// @DnDArgument : "default" "8000"
+score04 = ini_read_real("scores", "score04", 8000);
 
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
@@ -57,8 +57,8 @@ score04 = ini_read_real("scores", "score04", "8000");
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "section" ""scores""
 /// @DnDArgument : "key" ""score05""
-/// @DnDArgument : "default" ""7000""
-score05 = ini_read_real("scores", "score05", "7000");
+/// @DnDArgument : "default" "7000"
+score05 = ini_read_real("scores", "score05", 7000);
 
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
@@ -67,8 +67,8 @@ score05 = ini_read_real("scores", "score05", "7000");
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "section" ""scores""
 /// @DnDArgument : "key" ""score06""
-/// @DnDArgument : "default" ""6000""
-score06 = ini_read_real("scores", "score06", "6000");
+/// @DnDArgument : "default" "6000"
+score06 = ini_read_real("scores", "score06", 6000);
 
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
@@ -77,8 +77,8 @@ score06 = ini_read_real("scores", "score06", "6000");
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "section" ""scores""
 /// @DnDArgument : "key" ""score07""
-/// @DnDArgument : "default" ""5000""
-score07 = ini_read_real("scores", "score07", "5000");
+/// @DnDArgument : "default" "5000"
+score07 = ini_read_real("scores", "score07", 5000);
 
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
@@ -87,8 +87,8 @@ score07 = ini_read_real("scores", "score07", "5000");
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "section" ""scores""
 /// @DnDArgument : "key" ""score08""
-/// @DnDArgument : "default" ""4000""
-score08 = ini_read_real("scores", "score08", "4000");
+/// @DnDArgument : "default" "4000"
+score08 = ini_read_real("scores", "score08", 4000);
 
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
@@ -97,8 +97,8 @@ score08 = ini_read_real("scores", "score08", "4000");
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "section" ""scores""
 /// @DnDArgument : "key" ""score09""
-/// @DnDArgument : "default" ""3000""
-score09 = ini_read_real("scores", "score09", "3000");
+/// @DnDArgument : "default" "3000"
+score09 = ini_read_real("scores", "score09", 3000);
 
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
@@ -107,8 +107,8 @@ score09 = ini_read_real("scores", "score09", "3000");
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "section" ""scores""
 /// @DnDArgument : "key" ""score10""
-/// @DnDArgument : "default" ""2000""
-score10 = ini_read_real("scores", "score10", "2000");
+/// @DnDArgument : "default" "2000"
+score10 = ini_read_real("scores", "score10", 2000);
 
 /// @DnDAction : YoYo Games.Files.Close_Ini
 /// @DnDVersion : 1
@@ -144,3 +144,9 @@ ds_list_sort(score_list, false);
 /// @DnDArgument : "assignee" "global.highscore"
 /// @DnDArgument : "var" "score_list"
 global.highscore = ds_list_find_value(score_list, 0);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 316244AF
+/// @DnDArgument : "var" "currentscore"
+currentscore = 0;

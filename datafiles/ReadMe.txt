@@ -6,3 +6,4 @@ Coin = 5
 1P Start = 1
 Left = Left_Arrow
 Right = Right_Arrow
+Ctrl = Smash

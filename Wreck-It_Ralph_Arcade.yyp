@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "11ebdbe6-9039-4815-9a04-4fec569f0ea3",
+            "Value": {
+                "id": "09b1b096-942e-4dd1-8789-10701e4e4ecd",
+                "resourcePath": "sprites\\Ralph_Smash\\Ralph_Smash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c61cf3b-b53e-4a0c-9c18-8208ee7eab8f",
             "Value": {
                 "id": "d926a58f-328c-43da-be54-341bd38ea660",
@@ -164,6 +172,14 @@
                 "id": "18d60f8e-df44-49aa-9e70-e2d8abae1b32",
                 "resourcePath": "views\\705fd7c4-aa85-4106-96d6-50720cfe7fb2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "75e8c93d-e134-4c8f-8f49-768b0054b9f3",
+            "Value": {
+                "id": "f4cde810-6c2d-4804-91ce-70f4857f853f",
+                "resourcePath": "sprites\\MiddleFloors\\MiddleFloors.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

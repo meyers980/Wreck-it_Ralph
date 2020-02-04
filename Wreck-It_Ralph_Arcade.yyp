@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0b8f76c5-0f4e-4bc2-a4d1-322e42c9148a",
+            "Value": {
+                "id": "ecb530d6-015b-4d23-a18d-8cea7baecba8",
+                "resourcePath": "objects\\score_room_object\\score_room_object.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0fb8ab3f-e03c-494f-b247-c9291a62251d",
             "Value": {
                 "id": "87e6b995-9d80-413f-9ddf-3ea498c37a1d",
@@ -79,19 +87,19 @@
             }
         },
         {
-            "Key": "1394a171-b0b1-415e-a207-939bc627239b",
-            "Value": {
-                "id": "c469357b-401a-4b14-8606-2042cc8b860a",
-                "resourcePath": "datafiles_yy\\scores.ini.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "1c61cf3b-b53e-4a0c-9c18-8208ee7eab8f",
             "Value": {
                 "id": "d926a58f-328c-43da-be54-341bd38ea660",
                 "resourcePath": "objects\\Start_Object\\Start_Object.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "20cc3566-5161-4cab-a013-a243400b47b3",
+            "Value": {
+                "id": "675da59d-5d59-43ca-8c21-875ec03b14d1",
+                "resourcePath": "sprites\\score_screen\\score_screen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -211,6 +219,14 @@
             "Value": {
                 "id": "d639addb-d0db-4138-afad-35e1206ced3c",
                 "resourcePath": "rooms\\Gameplay_Level_0\\Gameplay_Level_0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "90ac044f-7285-4012-8dbd-39b1945bf2d9",
+            "Value": {
+                "id": "6189710e-af3c-4783-b8ec-bef0b8440458",
+                "resourcePath": "rooms\\Score_Room\\Score_Room.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -372,6 +388,14 @@
                 "id": "a664bdb9-49e7-4eb3-aee6-eb4d5a7c1e35",
                 "resourcePath": "views\\ef2c5b27-52c3-44ec-990a-6725c5f1b1d9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f06ea2a7-04cf-42b9-9161-a0e1591c12a8",
+            "Value": {
+                "id": "b7b1980f-e976-4cc4-b87c-4aeea148e7b9",
+                "resourcePath": "objects\\Scorekeeper2\\Scorekeeper2.yy",
+                "resourceType": "GMObject"
             }
         },
         {

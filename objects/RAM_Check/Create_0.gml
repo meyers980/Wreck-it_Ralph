@@ -14,6 +14,30 @@ ini_open("settings.ini");
 /// @DnDArgument : "default" ""0""
 license = ini_read_real("settings", "license", "0");
 
+/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDVersion : 1
+/// @DnDHash : 685427B5
+/// @DnDArgument : "var" "savescores"
+/// @DnDArgument : "section" ""settings""
+/// @DnDArgument : "key" ""savescores""
+/// @DnDArgument : "default" ""true""
+savescores = ini_read_string("settings", "savescores", "true");
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 42376B09
+/// @DnDArgument : "var" "savescores"
+/// @DnDArgument : "value" ""false""
+if(savescores == "false")
+{
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 19B4AC97
+	/// @DnDParent : 42376B09
+	/// @DnDArgument : "code" "highscore_clear();"
+	highscore_clear();
+}
+
 /// @DnDAction : YoYo Games.Files.Close_Ini
 /// @DnDVersion : 1
 /// @DnDHash : 1196272A

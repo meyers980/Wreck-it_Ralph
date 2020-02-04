@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "6a0c70df-b079-431f-8553-a7bf72ee8bd4",
+            "Value": {
+                "id": "781ea40e-a31f-4a12-b9d9-8e3ffe0f9fb1",
+                "resourcePath": "sprites\\lives_icon\\lives_icon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c788d82-1cc4-401c-b7b7-cbfdc21016ca",
             "Value": {
                 "id": "3b26eb74-0f71-4d51-a2bd-7a23e832233e",

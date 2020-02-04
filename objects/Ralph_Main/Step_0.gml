@@ -1,8 +1,9 @@
 /// @DnDAction : YoYo Games.Instance Variables.If_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 46FEC3C7
+/// @DnDArgument : "op" "1"
 if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
-if(__dnd_lives == 0)
+if(__dnd_lives < 0)
 {
 	/// @DnDAction : YoYo Games.Instance Variables.Get_Score
 	/// @DnDVersion : 1

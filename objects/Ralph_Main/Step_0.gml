@@ -9,30 +9,61 @@ if(__dnd_lives < 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 43735F59
 	/// @DnDParent : 46FEC3C7
-	/// @DnDArgument : "var" "currentscore"
+	/// @DnDArgument : "var" "global.currentscore"
 	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-	currentscore = __dnd_score;
+	global.currentscore = __dnd_score;
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
-	/// @DnDHash : 1655931A
+	/// @DnDHash : 1EB3E354
 	/// @DnDParent : 46FEC3C7
-	/// @DnDArgument : "code" "highscore_add("NEW", currentscore);"
-	highscore_add("NEW", currentscore);
+	/// @DnDArgument : "code" "lowscore = highscore_value(10);"
+	lowscore = highscore_value(10);
 
-	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 04A7F590
+	/// @DnDHash : 0EC187EB
 	/// @DnDParent : 46FEC3C7
-	/// @DnDArgument : "room" "Score_Room"
-	/// @DnDSaveInfo : "room" "90ac044f-7285-4012-8dbd-39b1945bf2d9"
-	room_goto(Score_Room);
+	/// @DnDArgument : "var" "global.currentscore"
+	/// @DnDArgument : "op" "2"
+	/// @DnDArgument : "value" "lowscore"
+	if(global.currentscore > lowscore)
+	{
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 04A7F590
+		/// @DnDParent : 0EC187EB
+		/// @DnDArgument : "room" "Score_RoomEnter"
+		/// @DnDSaveInfo : "room" "90ac044f-7285-4012-8dbd-39b1945bf2d9"
+		room_goto(Score_RoomEnter);
+	
+		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 0343817C
+		/// @DnDParent : 0EC187EB
+		instance_destroy();
+	}
 
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1
-	/// @DnDHash : 0343817C
+	/// @DnDHash : 31F1EDA7
 	/// @DnDParent : 46FEC3C7
-	instance_destroy();
+	else
+	{
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 1F9DA36C
+		/// @DnDParent : 31F1EDA7
+		/// @DnDArgument : "room" "Score_RoomScores"
+		/// @DnDSaveInfo : "room" "47b992a0-cc69-4702-af92-ce266aa2866f"
+		room_goto(Score_RoomScores);
+	
+		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 7E3C392A
+		/// @DnDParent : 31F1EDA7
+		instance_destroy();
+	}
 }
 
 /// @DnDAction : YoYo Games.Instance Variables.Get_Score

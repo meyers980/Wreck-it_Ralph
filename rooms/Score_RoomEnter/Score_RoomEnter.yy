@@ -1,13 +1,13 @@
 
 {
-    "name": "Score_Room",
+    "name": "Score_RoomEnter",
     "id": "90ac044f-7285-4012-8dbd-39b1945bf2d9",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "4c958d17-39e0-4390-9a87-13dbaffa6932"
+        "78a11a3c-9680-43f4-9300-51eeb101830e"
     ],
     "IsDnD": true,
     "layers": [
@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_7A1E6A09","id": "4c958d17-39e0-4390-9a87-13dbaffa6932","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7A1E6A09","objId": "0b8f76c5-0f4e-4bc2-a4d1-322e42c9148a","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 512,"y": 576}
+{"name": "inst_36F7A8C1","id": "78a11a3c-9680-43f4-9300-51eeb101830e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_36F7A8C1","objId": "39875a0a-977f-4497-ae0f-79584d0bbeb5","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 208,"y": 230}
             ],
             "layers": [
 
@@ -41,7 +41,7 @@
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Background",
             "id": "61b06333-9f52-4e67-9c43-1dccfb2ed288",
-            "animationFPS": 15,
+            "animationFPS": 0,
             "animationSpeedType": "0",
             "colour": { "Value": 4294967295 },
             "depth": 100,

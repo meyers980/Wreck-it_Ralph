@@ -9,3 +9,9 @@ index_c = 1
 tempname_a = string_char_at(alphabet, index_a);
 tempname_b = string_char_at(alphabet, index_b);
 tempname_c = string_char_at(alphabet, index_c);
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 0ED29F9F
+/// @DnDArgument : "steps" "1800"
+alarm_set(0, 1800);

@@ -8,7 +8,7 @@
     "option_windows_company_info": "Sergio Stuff",
     "option_windows_copy_exe_to_dest": false,
     "option_windows_copyright_info": "(c) 2020",
-    "option_windows_description_info": "A fictional arcade game, not for sale or distribution.",
+    "option_windows_description_info": "Wreck-it Ralph Arcade",
     "option_windows_disable_sandbox": false,
     "option_windows_display_cursor": true,
     "option_windows_display_name": "Wreck-it Ralph Arcade",

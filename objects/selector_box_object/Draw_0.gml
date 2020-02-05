@@ -29,3 +29,12 @@ draw_text(240, 220,  + string(tempname_b));
 /// @DnDArgument : "caption" ""
 /// @DnDArgument : "var" "tempname_c"
 draw_text(270, 220,  + string(tempname_c));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 0688BF2B
+/// @DnDArgument : "x" "313"
+/// @DnDArgument : "y" "430"
+/// @DnDArgument : "caption" ""
+/// @DnDArgument : "var" "countdownseconds"
+draw_text(313, 430,  + string(countdownseconds));

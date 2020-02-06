@@ -9,5 +9,5 @@ __dnd_lives += real(-1);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 1A0BB122
-/// @DnDArgument : "steps" "180"
-alarm_set(0, 180);
+/// @DnDArgument : "steps" "220"
+alarm_set(0, 220);

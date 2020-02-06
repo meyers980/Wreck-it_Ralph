@@ -1,18 +1,18 @@
 {
-    "id": "aab1a033-9c71-43ce-a6e0-a75c9b5e918f",
+    "id": "7ed57c8c-7cc3-4520-8437-2db7e7713564",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Window_Creator",
+    "name": "Window_Broken",
     "eventList": [
         {
-            "id": "bfb0515c-e70a-42da-8cb3-a936052ead61",
+            "id": "f7726298-fbc4-4464-a286-4e6665e776e9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "aab1a033-9c71-43ce-a6e0-a75c9b5e918f"
+            "eventtype": 0,
+            "m_owner": "7ed57c8c-7cc3-4520-8437-2db7e7713564"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "a781af56-5e5a-4363-b9bd-7717fe573d4f",
     "visible": true
 }

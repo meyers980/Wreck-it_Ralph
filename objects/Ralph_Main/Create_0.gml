@@ -10,3 +10,9 @@ __dnd_score = real(0);
 /// @DnDArgument : "lives" "2"
 
 __dnd_lives = real(2);
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 2AE1F61F
+/// @DnDArgument : "steps" "180"
+alarm_set(0, 180);

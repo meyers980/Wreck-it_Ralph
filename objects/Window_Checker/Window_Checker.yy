@@ -2,16 +2,36 @@
     "id": "aab1a033-9c71-43ce-a6e0-a75c9b5e918f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Window_Creator",
+    "name": "Window_Checker",
     "eventList": [
         {
-            "id": "bfb0515c-e70a-42da-8cb3-a936052ead61",
+            "id": "cec98670-e842-4e41-94a3-1b0e3044f844",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "aab1a033-9c71-43ce-a6e0-a75c9b5e918f"
+        },
+        {
+            "id": "fb809511-631f-4e5e-9b0e-1705e73c0719",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "aab1a033-9c71-43ce-a6e0-a75c9b5e918f"
+        },
+        {
+            "id": "c510a848-4958-4db2-8ef3-9c391ee9bf5d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
             "m_owner": "aab1a033-9c71-43ce-a6e0-a75c9b5e918f"
         }
     ],

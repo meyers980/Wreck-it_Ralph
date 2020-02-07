@@ -87,11 +87,27 @@
             }
         },
         {
+            "Key": "1948ac37-508b-4f3e-afc8-f69a461142a1",
+            "Value": {
+                "id": "f06c3bb2-fcf0-4ea5-8768-7dd6c65865ec",
+                "resourcePath": "sprites\\nicelander_enemy_sprite\\nicelander_enemy_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c61cf3b-b53e-4a0c-9c18-8208ee7eab8f",
             "Value": {
                 "id": "d926a58f-328c-43da-be54-341bd38ea660",
                 "resourcePath": "objects\\Start_Object\\Start_Object.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1fb99337-7f70-4592-9739-fdb19188e0eb",
+            "Value": {
+                "id": "72546d0e-f088-40e2-a0a3-273407dd9318",
+                "resourcePath": "sounds\\window_break\\window_break.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -247,6 +263,14 @@
             }
         },
         {
+            "Key": "780cb96b-085c-4d2e-9963-db79266d5408",
+            "Value": {
+                "id": "873b0fdd-ae6e-4f61-a7db-8b752e639b65",
+                "resourcePath": "objects\\destroyer\\destroyer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7c761a06-a994-49bf-9dad-aa75b91b02e3",
             "Value": {
                 "id": "2115f5c7-9e37-4ed9-8531-c621410726bd",
@@ -263,10 +287,18 @@
             }
         },
         {
+            "Key": "81e4253b-1353-4fda-a75c-a9461c30753e",
+            "Value": {
+                "id": "4cd02f0a-3b55-4fdc-9dc0-b5b2e49476f3",
+                "resourcePath": "sounds\\smash_sound\\smash_sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "86da9578-2dbf-4c6f-8350-ea4b9324db78",
             "Value": {
                 "id": "d639addb-d0db-4138-afad-35e1206ced3c",
-                "resourcePath": "rooms\\Gameplay_Level_0\\Gameplay_Level_0.yy",
+                "resourcePath": "rooms\\Gameplay_Level_Middle\\Gameplay_Level_Middle.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -346,7 +378,7 @@
             "Key": "aab1a033-9c71-43ce-a6e0-a75c9b5e918f",
             "Value": {
                 "id": "e053506f-c0a2-4c17-8b93-d9b0b0d22889",
-                "resourcePath": "objects\\Window_Creator\\Window_Creator.yy",
+                "resourcePath": "objects\\Window_Checker\\Window_Checker.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -404,6 +436,14 @@
                 "id": "fe831558-adfc-4f67-bede-5c46d227c4bb",
                 "resourcePath": "sprites\\insertcoin\\insertcoin.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c926f106-c030-43db-b99b-10b6b7fe951e",
+            "Value": {
+                "id": "a8d565d9-48f7-4235-b8ba-151dc3475668",
+                "resourcePath": "objects\\nicelander_enemy\\nicelander_enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -11,8 +11,9 @@ __dnd_score = real(0);
 
 __dnd_lives = real(2);
 
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 2AE1F61F
-/// @DnDArgument : "steps" "180"
-alarm_set(0, 180);
+/// @DnDHash : 62395168
+/// @DnDArgument : "value" ""yes""
+/// @DnDArgument : "var" "playerinput"
+global.playerinput = "yes";

@@ -17,3 +17,12 @@ __dnd_lives = real(2);
 /// @DnDArgument : "value" ""yes""
 /// @DnDArgument : "var" "playerinput"
 global.playerinput = "yes";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4FD5F18D
+/// @DnDInput : 2
+/// @DnDArgument : "var" "immunity"
+/// @DnDArgument : "var_1" "smashvariable"
+immunity = 0;
+smashvariable = 0;

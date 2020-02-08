@@ -12,3 +12,9 @@ image_index = 0;
 /// @DnDArgument : "value" ""yes""
 /// @DnDArgument : "var" "playerinput"
 global.playerinput = "yes";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0CF76531
+/// @DnDArgument : "var" "immunity"
+immunity = 0;

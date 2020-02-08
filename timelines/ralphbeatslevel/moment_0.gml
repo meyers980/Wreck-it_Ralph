@@ -31,9 +31,9 @@ with(invisiblewall) instance_destroy();
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 5CD62630
-/// @DnDArgument : "spriteind" "Ralph_Climb"
-/// @DnDSaveInfo : "spriteind" "522a429f-ba13-406a-b101-96e5cdb8715a"
-sprite_index = Ralph_Climb;
+/// @DnDArgument : "spriteind" "Ralph_Climb_Long"
+/// @DnDSaveInfo : "spriteind" "0444554a-b55e-4330-9988-ba9810bd6bbc"
+sprite_index = Ralph_Climb_Long;
 image_index = 0;
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed

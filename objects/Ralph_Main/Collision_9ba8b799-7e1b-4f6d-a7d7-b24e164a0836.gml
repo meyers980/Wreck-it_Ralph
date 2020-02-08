@@ -39,4 +39,11 @@ if(immunity == 0)
 	/// @DnDArgument : "lives_relative" "1"
 	if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 	__dnd_lives += real(-1);
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Start
+	/// @DnDVersion : 1
+	/// @DnDHash : 7E725E75
+	/// @DnDParent : 3C220405
+	x = xstart;
+	y = ystart;
 }

@@ -20,9 +20,9 @@ if(cranecreate > 4)
 	/// @DnDParent : 6A207615
 	/// @DnDArgument : "ypos" "59"
 	/// @DnDArgument : "objectid" "crane"
-	/// @DnDArgument : "layer" ""Players""
+	/// @DnDArgument : "layer" ""Bricks""
 	/// @DnDSaveInfo : "objectid" "fd516583-23e6-4eac-aa79-21f1d6907ca0"
-	instance_create_layer(0, 59, "Players", crane);
+	instance_create_layer(0, 59, "Bricks", crane);
 }
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm

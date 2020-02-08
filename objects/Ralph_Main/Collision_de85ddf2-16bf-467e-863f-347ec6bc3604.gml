@@ -4,15 +4,6 @@
 /// @DnDArgument : "var" "immunity"
 if(immunity == 0)
 {
-	/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
-	/// @DnDVersion : 1
-	/// @DnDHash : 6F17C694
-	/// @DnDParent : 6B236863
-	/// @DnDArgument : "lives" "-1"
-	/// @DnDArgument : "lives_relative" "1"
-	if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
-	__dnd_lives += real(-1);
-
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6AD60B6B
@@ -39,4 +30,20 @@ if(immunity == 0)
 	/// @DnDSaveInfo : "spriteind" "00a09f19-b189-47b8-aa29-b4979cd5340c"
 	sprite_index = Ralph_Damage;
 	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+	/// @DnDVersion : 1
+	/// @DnDHash : 6F17C694
+	/// @DnDParent : 6B236863
+	/// @DnDArgument : "lives" "-1"
+	/// @DnDArgument : "lives_relative" "1"
+	if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
+	__dnd_lives += real(-1);
+
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Start
+	/// @DnDVersion : 1
+	/// @DnDHash : 1FB87C24
+	/// @DnDParent : 6B236863
+	x = xstart;
+	y = ystart;
 }

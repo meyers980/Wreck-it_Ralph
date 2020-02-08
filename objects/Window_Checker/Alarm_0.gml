@@ -30,9 +30,9 @@ if(enemycreate > 3)
 	/// @DnDArgument : "xpos" "xposition"
 	/// @DnDArgument : "ypos" "630"
 	/// @DnDArgument : "objectid" "nicelander_enemy"
-	/// @DnDArgument : "layer" ""Players""
+	/// @DnDArgument : "layer" ""Bricks""
 	/// @DnDSaveInfo : "objectid" "c926f106-c030-43db-b99b-10b6b7fe951e"
-	instance_create_layer(xposition, 630, "Players", nicelander_enemy);
+	instance_create_layer(xposition, 630, "Bricks", nicelander_enemy);
 }
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm

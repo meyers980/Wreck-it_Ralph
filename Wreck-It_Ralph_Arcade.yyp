@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "011dbf06-aee8-4b47-82de-0e5585d90e37",
+            "Value": {
+                "id": "da08720f-f0da-44b3-8428-dedf6bb4280a",
+                "resourcePath": "timelines\\ralphdown\\ralphdown.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "04061154-127b-4891-bf09-d683eb9618b9",
             "Value": {
                 "id": "1dae9472-d82d-49e8-8f07-293cb354b624",
@@ -231,11 +239,27 @@
             }
         },
         {
+            "Key": "522a429f-ba13-406a-b101-96e5cdb8715a",
+            "Value": {
+                "id": "1cec1200-eba8-4d10-b0a6-e3b4bd47fb47",
+                "resourcePath": "sprites\\Ralph_Climb\\Ralph_Climb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5ed4d9ec-5f46-4410-b73d-d774ed65ff03",
             "Value": {
                 "id": "5dd7e46b-2819-4621-bf0e-809d83f293d0",
                 "resourcePath": "objects\\Window_Fixed\\Window_Fixed.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "62a38283-8421-44b2-a866-6446090ce7e5",
+            "Value": {
+                "id": "33af46e8-32c0-45f6-82df-f7c2d87cdcd7",
+                "resourcePath": "sprites\\topblackout\\topblackout.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -540,6 +564,14 @@
                 "id": "a1a65c38-5604-44a6-831e-98e67362542e",
                 "resourcePath": "rooms\\Coin_Credits\\Coin_Credits.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d9643247-b1b0-43e3-8801-5a0bb41a5c3e",
+            "Value": {
+                "id": "b4fe5626-b508-44f7-8031-fed980667412",
+                "resourcePath": "timelines\\ralphup\\ralphup.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {

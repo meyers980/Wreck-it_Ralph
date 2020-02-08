@@ -23,15 +23,6 @@ if(cranecreate > 4)
 	/// @DnDArgument : "layer" ""Players""
 	/// @DnDSaveInfo : "objectid" "fd516583-23e6-4eac-aa79-21f1d6907ca0"
 	instance_create_layer(0, 59, "Players", crane);
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 51A8AEF6
-	/// @DnDParent : 6A207615
-	/// @DnDArgument : "objectid" "wreckingball"
-	/// @DnDArgument : "layer" ""Players""
-	/// @DnDSaveInfo : "objectid" "7c11b522-e7e5-4d7d-9fbb-a2487d2c21e9"
-	instance_create_layer(0, 0, "Players", wreckingball);
 }
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm

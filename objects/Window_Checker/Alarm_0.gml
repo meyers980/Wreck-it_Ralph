@@ -11,8 +11,8 @@ enemycreate = floor(random_range(0, 5 + 1));
 /// @DnDHash : 7D350B41
 /// @DnDArgument : "var" "enemycreate"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "2"
-if(enemycreate > 2)
+/// @DnDArgument : "value" "3"
+if(enemycreate > 3)
 {
 	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDVersion : 1

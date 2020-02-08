@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "7f889a7a-5297-4df9-af0a-d3f53cb36692",
+            "Value": {
+                "id": "ba528733-f268-4029-9481-fe8e1d434db5",
+                "resourcePath": "sprites\\ralphcelebrates_sprite\\ralphcelebrates_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80b8246c-1296-47a6-8089-0f0279f68265",
             "Value": {
                 "id": "34f867b1-0d4a-4cf5-a1f3-1837bf9700f2",
@@ -394,7 +402,7 @@
             "Key": "84e7caf3-925f-457c-926a-3ab7957148b4",
             "Value": {
                 "id": "2f566f0f-6b29-47c5-a9d5-4125c0200273",
-                "resourcePath": "timelines\\ralphbeatslevel\\ralphbeatslevel.yy",
+                "resourcePath": "timelines\\floorcomplete\\floorcomplete.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -428,6 +436,14 @@
                 "id": "da2624d7-4b0f-4395-94ec-27487b388600",
                 "resourcePath": "datafiles_yy\\ReadMe.txt.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9357d7aa-1f53-418d-b054-4befb59235a7",
+            "Value": {
+                "id": "48ed800e-4ba9-4629-8a13-596a276e77b9",
+                "resourcePath": "timelines\\levelcomplete\\levelcomplete.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {

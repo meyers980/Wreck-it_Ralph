@@ -38,16 +38,79 @@ if(windowcount + doorcount + largewindowcount < 1)
 	/// @DnDArgument : "var" "playerinput"
 	global.playerinput = "no";
 
-	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
-	/// @DnDHash : 057566D8
-	/// @DnDApplyTo : 349637d5-5421-4fd7-adf4-1bb42cafb062
+	/// @DnDHash : 4F4364CF
 	/// @DnDParent : 5C86A347
-	/// @DnDArgument : "timeline" "ralphbeatslevel"
-	/// @DnDSaveInfo : "timeline" "84e7caf3-925f-457c-926a-3ab7957148b4"
-	with(Ralph_Main) {
-	timeline_index = ralphbeatslevel;
-	timeline_loop = 0;
-	timeline_running = 1;
+	/// @DnDArgument : "code" "rm = room_get_name(room);"
+	rm = room_get_name(room);
+
+	/// @DnDAction : YoYo Games.Switch.Switch
+	/// @DnDVersion : 1
+	/// @DnDHash : 71AE6E11
+	/// @DnDParent : 5C86A347
+	/// @DnDArgument : "expr" "rm"
+	var l71AE6E11_0 = rm;
+	switch(l71AE6E11_0)
+	{
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 5B305C31
+		/// @DnDParent : 71AE6E11
+		/// @DnDArgument : "const" ""Gameplay_Level_Top""
+		case "Gameplay_Level_Top":
+			/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+			/// @DnDVersion : 1
+			/// @DnDHash : 47050DCB
+			/// @DnDApplyTo : 349637d5-5421-4fd7-adf4-1bb42cafb062
+			/// @DnDParent : 5B305C31
+			/// @DnDArgument : "timeline" "floorcomplete"
+			/// @DnDSaveInfo : "timeline" "84e7caf3-925f-457c-926a-3ab7957148b4"
+			with(Ralph_Main) {
+			timeline_index = floorcomplete;
+			timeline_loop = 0;
+			timeline_running = 1;
+			}
+			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 33EBD21F
+		/// @DnDParent : 71AE6E11
+		/// @DnDArgument : "const" ""Gameplay_Level_Middle""
+		case "Gameplay_Level_Middle":
+			/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+			/// @DnDVersion : 1
+			/// @DnDHash : 1D5EE2FA
+			/// @DnDApplyTo : 349637d5-5421-4fd7-adf4-1bb42cafb062
+			/// @DnDParent : 33EBD21F
+			/// @DnDArgument : "timeline" "floorcomplete"
+			/// @DnDSaveInfo : "timeline" "84e7caf3-925f-457c-926a-3ab7957148b4"
+			with(Ralph_Main) {
+			timeline_index = floorcomplete;
+			timeline_loop = 0;
+			timeline_running = 1;
+			}
+			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 0EA01072
+		/// @DnDParent : 71AE6E11
+		/// @DnDArgument : "const" ""Gameplay_Level_Bottom""
+		case "Gameplay_Level_Bottom":
+			/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+			/// @DnDVersion : 1
+			/// @DnDHash : 497DC24B
+			/// @DnDApplyTo : 349637d5-5421-4fd7-adf4-1bb42cafb062
+			/// @DnDParent : 0EA01072
+			/// @DnDArgument : "timeline" "levelcomplete"
+			/// @DnDSaveInfo : "timeline" "9357d7aa-1f53-418d-b054-4befb59235a7"
+			with(Ralph_Main) {
+			timeline_index = levelcomplete;
+			timeline_loop = 0;
+			timeline_running = 1;
+			}
+			break;
 	}
 }

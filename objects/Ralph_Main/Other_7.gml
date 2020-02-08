@@ -22,8 +22,10 @@ currentspeed = speed;
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1E675903
-/// @DnDArgument : "var" "speed"
-if(speed == 0)
+/// @DnDArgument : "var" "currentspeed"
+/// @DnDArgument : "op" "1"
+/// @DnDArgument : "value" "1"
+if(currentspeed < 1)
 {
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1

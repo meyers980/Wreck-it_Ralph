@@ -26,11 +26,3 @@ for(var l3CDE0753_2 = __dnd_lives; l3CDE0753_2 > 0; --l3CDE0753_2) {
 	draw_sprite(lives_icon, 0, 442 + l3CDE0753_1, 12);
 	l3CDE0753_1 += l3CDE0753_0;
 }
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 6FBE130D
-/// @DnDArgument : "x" "25"
-/// @DnDArgument : "y" "25"
-/// @DnDArgument : "var" "global.playerinput"
-draw_text(25, 25, string("Caption: ") + string(global.playerinput));

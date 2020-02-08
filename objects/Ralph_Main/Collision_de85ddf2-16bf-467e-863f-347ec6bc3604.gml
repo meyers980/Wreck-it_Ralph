@@ -40,10 +40,11 @@ if(immunity == 0)
 	if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 	__dnd_lives += real(-1);
 
-	/// @DnDAction : YoYo Games.Movement.Jump_To_Start
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
-	/// @DnDHash : 1FB87C24
+	/// @DnDHash : 4686F15B
 	/// @DnDParent : 6B236863
-	x = xstart;
-	y = ystart;
+	/// @DnDArgument : "steps" "1"
+	/// @DnDArgument : "alarm" "1"
+	alarm_set(1, 1);
 }

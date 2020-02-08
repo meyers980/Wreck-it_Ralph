@@ -22,9 +22,16 @@ if(windowcount < 1)
 	/// @DnDArgument : "var" "playerinput"
 	global.playerinput = "no";
 
-	/// @DnDAction : YoYo Games.Rooms.Next_Room
+	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
 	/// @DnDVersion : 1
-	/// @DnDHash : 002D0B6A
+	/// @DnDHash : 057566D8
+	/// @DnDApplyTo : 349637d5-5421-4fd7-adf4-1bb42cafb062
 	/// @DnDParent : 5C86A347
-	room_goto_next();
+	/// @DnDArgument : "timeline" "ralphbeatslevel"
+	/// @DnDSaveInfo : "timeline" "84e7caf3-925f-457c-926a-3ab7957148b4"
+	with(Ralph_Main) {
+	timeline_index = ralphbeatslevel;
+	timeline_loop = 0;
+	timeline_running = 1;
+	}
 }

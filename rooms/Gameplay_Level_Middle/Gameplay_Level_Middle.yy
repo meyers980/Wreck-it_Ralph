@@ -2,7 +2,7 @@
 {
     "name": "Gameplay_Level_Middle",
     "id": "86da9578-2dbf-4c6f-8350-ea4b9324db78",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

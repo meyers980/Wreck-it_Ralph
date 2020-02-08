@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "15a8bfe0-3fd5-4f2b-a9e3-d53a54827a23",
+            "Value": {
+                "id": "dff1219e-1522-41bf-9980-33ee090cc5c5",
+                "resourcePath": "sprites\\BottomFloors\\BottomFloors.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1948ac37-508b-4f3e-afc8-f69a461142a1",
             "Value": {
                 "id": "f06c3bb2-fcf0-4ea5-8768-7dd6c65865ec",
@@ -343,6 +351,14 @@
             }
         },
         {
+            "Key": "80b8246c-1296-47a6-8089-0f0279f68265",
+            "Value": {
+                "id": "34f867b1-0d4a-4cf5-a1f3-1837bf9700f2",
+                "resourcePath": "rooms\\Gameplay_Level_Bottom\\Gameplay_Level_Bottom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "81e4253b-1353-4fda-a75c-a9461c30753e",
             "Value": {
                 "id": "4cd02f0a-3b55-4fdc-9dc0-b5b2e49476f3",
@@ -483,6 +499,14 @@
             "Value": {
                 "id": "75edee8c-2519-4eb5-89a6-e9ade142ec3b",
                 "resourcePath": "objects\\Admin_Functions\\Admin_Functions.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b691db1f-465c-45fc-bce6-e330a1686993",
+            "Value": {
+                "id": "f975290b-f60d-468a-8632-54a202d90307",
+                "resourcePath": "objects\\invisiblewall\\invisiblewall.yy",
                 "resourceType": "GMObject"
             }
         },

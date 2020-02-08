@@ -22,11 +22,9 @@ if(windowcount < 1)
 	/// @DnDArgument : "var" "playerinput"
 	global.playerinput = "no";
 
-	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDAction : YoYo Games.Rooms.Next_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 2AAB2F84
+	/// @DnDHash : 002D0B6A
 	/// @DnDParent : 5C86A347
-	/// @DnDArgument : "room" "Gameplay_Level_Middle"
-	/// @DnDSaveInfo : "room" "86da9578-2dbf-4c6f-8350-ea4b9324db78"
-	room_goto(Gameplay_Level_Middle);
+	room_goto_next();
 }

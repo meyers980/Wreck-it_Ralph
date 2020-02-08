@@ -6,13 +6,29 @@
 /// @DnDSaveInfo : "object" "5ed4d9ec-5f46-4410-b73d-d774ed65ff03"
 windowcount = instance_number(Window_Fixed);
 
+/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
+/// @DnDVersion : 1
+/// @DnDHash : 7B8421EA
+/// @DnDArgument : "var" "doorcount"
+/// @DnDArgument : "object" "Front_Door_Fixed"
+/// @DnDSaveInfo : "object" "fe0e46c4-d6ef-491b-9fc3-9bc3d8f185bc"
+doorcount = instance_number(Front_Door_Fixed);
+
+/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
+/// @DnDVersion : 1
+/// @DnDHash : 574AE5C6
+/// @DnDArgument : "var" "largewindowcount"
+/// @DnDArgument : "object" "Large_Window_Fixed"
+/// @DnDSaveInfo : "object" "73c8cdd1-afc8-4a5e-90ee-6021e5b0b5ae"
+largewindowcount = instance_number(Large_Window_Fixed);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5C86A347
-/// @DnDArgument : "var" "windowcount"
+/// @DnDArgument : "var" "windowcount + doorcount + largewindowcount"
 /// @DnDArgument : "op" "1"
 /// @DnDArgument : "value" "1"
-if(windowcount < 1)
+if(windowcount + doorcount + largewindowcount < 1)
 {
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1

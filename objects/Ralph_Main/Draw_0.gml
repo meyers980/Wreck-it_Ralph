@@ -3,6 +3,14 @@
 /// @DnDHash : 7C459575
 draw_self();
 
+/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 29AFB182
+/// @DnDArgument : "x" "70"
+/// @DnDArgument : "sprite" "oneup"
+/// @DnDSaveInfo : "sprite" "364c48f6-6bf6-46a5-8831-7ee05384712a"
+draw_sprite(oneup, 0, 70, 0);
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
 /// @DnDVersion : 1
 /// @DnDHash : 62FF11DD

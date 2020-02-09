@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "364c48f6-6bf6-46a5-8831-7ee05384712a",
+            "Value": {
+                "id": "7105d42a-4ac0-4968-bd00-179c31c12589",
+                "resourcePath": "sprites\\oneup\\oneup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "37a47f4b-1c77-43b5-865d-80f2cb68ae01",
             "Value": {
                 "id": "c8a532b6-625f-49df-9f34-a7aa707d0be3",

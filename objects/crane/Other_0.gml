@@ -6,5 +6,11 @@ with(wreckingball) instance_destroy();
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
+/// @DnDHash : 7BD5348E
+/// @DnDApplyTo : 9414f784-7807-48d5-ba25-d915d1e92db0
+with(wreckingball_swingleft) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
 /// @DnDHash : 27538F6F
 instance_destroy();

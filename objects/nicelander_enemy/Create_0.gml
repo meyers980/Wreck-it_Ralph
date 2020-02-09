@@ -40,10 +40,14 @@ else
 /// @DnDAction : YoYo Games.Random.Choose
 /// @DnDVersion : 1
 /// @DnDHash : 3AE28899
-/// @DnDInput : 2
+/// @DnDInput : 6
 /// @DnDArgument : "var" "whichnicelander"
 /// @DnDArgument : "option_1" "1"
-whichnicelander = choose(0, 1);
+/// @DnDArgument : "option_2" "2"
+/// @DnDArgument : "option_3" "3"
+/// @DnDArgument : "option_4" "4"
+/// @DnDArgument : "option_5" "5"
+whichnicelander = choose(0, 1, 2, 3, 4, 5);
 
 /// @DnDAction : YoYo Games.Switch.Switch
 /// @DnDVersion : 1
@@ -80,6 +84,70 @@ switch(l6DE68F21_0)
 		/// @DnDArgument : "spriteind" "Mary"
 		/// @DnDSaveInfo : "spriteind" "85dc770d-9543-49e7-a2c5-2592c660013b"
 		sprite_index = Mary;
+		image_index = 0;
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 134158B2
+	/// @DnDParent : 6DE68F21
+	/// @DnDArgument : "const" "2"
+	case 2:
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 67FD9C47
+		/// @DnDParent : 134158B2
+		/// @DnDArgument : "spriteind" "Nell"
+		/// @DnDSaveInfo : "spriteind" "863029b4-8a74-4dc1-8b04-c3217ed6243b"
+		sprite_index = Nell;
+		image_index = 0;
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 26976136
+	/// @DnDParent : 6DE68F21
+	/// @DnDArgument : "const" "3"
+	case 3:
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 105FF006
+		/// @DnDParent : 26976136
+		/// @DnDArgument : "spriteind" "Deanna"
+		/// @DnDSaveInfo : "spriteind" "c0e20eda-e85c-4244-84e6-cde640bb91ae"
+		sprite_index = Deanna;
+		image_index = 0;
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 683D7D05
+	/// @DnDParent : 6DE68F21
+	/// @DnDArgument : "const" "4"
+	case 4:
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 43BA858B
+		/// @DnDParent : 683D7D05
+		/// @DnDArgument : "spriteind" "Nolan"
+		/// @DnDSaveInfo : "spriteind" "4155061a-f518-48e4-8afa-4536a8c45ba7"
+		sprite_index = Nolan;
+		image_index = 0;
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 51083772
+	/// @DnDParent : 6DE68F21
+	/// @DnDArgument : "const" "5"
+	case 5:
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 5C3A4F9D
+		/// @DnDParent : 51083772
+		/// @DnDArgument : "spriteind" "Bob"
+		/// @DnDSaveInfo : "spriteind" "2d35bf00-d8b4-473b-bcc2-7413038801dd"
+		sprite_index = Bob;
 		image_index = 0;
 		break;
 }

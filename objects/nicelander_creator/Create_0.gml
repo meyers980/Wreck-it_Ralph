@@ -31,9 +31,9 @@ topfloorspawnsy = ds_list_create();
 /// @DnDArgument : "value" "103"
 /// @DnDArgument : "value_1" "167"
 /// @DnDArgument : "value_2" "239"
-/// @DnDArgument : "value_3" "310"
+/// @DnDArgument : "value_3" "311"
 /// @DnDArgument : "value_4" "376"
-ds_list_add(topfloorspawnsx, 103, 167, 239, 310, 376);
+ds_list_add(topfloorspawnsx, 103, 167, 239, 311, 376);
 
 /// @DnDAction : YoYo Games.Data Structures.List_Add
 /// @DnDVersion : 1

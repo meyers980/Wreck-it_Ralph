@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "8429015b-9ca0-4343-84fb-cfc53fee53f7",
+            "Value": {
+                "id": "6e2ae21e-4ef0-4438-970e-3a80c9cefe27",
+                "resourcePath": "sprites\\Walking_Ralph_Left\\Walking_Ralph_Left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "84e7caf3-925f-457c-926a-3ab7957148b4",
             "Value": {
                 "id": "2f566f0f-6b29-47c5-a9d5-4125c0200273",
@@ -591,6 +599,14 @@
             }
         },
         {
+            "Key": "af0bcb6d-dbc2-4bda-963d-2ec461210952",
+            "Value": {
+                "id": "91c8e1ba-d0b1-4c59-bba8-b668ccfee599",
+                "resourcePath": "sprites\\Ralph_Throwing\\Ralph_Throwing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b36ad3a1-10ad-4d3b-a080-c2121b42cd4a",
             "Value": {
                 "id": "3bfe9aed-e408-4ca9-b89e-5ad194809aba",
@@ -627,6 +643,14 @@
             "Value": {
                 "id": "aa47db27-bb92-48d8-ab58-3acb897389fc",
                 "resourcePath": "sprites\\wreckingball_sprite\\wreckingball_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b988319b-f353-4cde-aed6-d530631bfecb",
+            "Value": {
+                "id": "a332fd50-7079-4c8b-a82d-208e7163c9b6",
+                "resourcePath": "sprites\\brick_bundle_sprite\\brick_bundle_sprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -804,6 +828,14 @@
                 "id": "91c6e7fb-610e-48b5-8878-ae29de2d003b",
                 "resourcePath": "views\\f47dd241-ce6e-4400-8711-de79ee3a1d1f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fb9c8ad4-11ec-4fa5-919b-e0704c03193e",
+            "Value": {
+                "id": "f8fd837f-00eb-4407-915f-229e84f0cd7e",
+                "resourcePath": "objects\\brick_bundle\\brick_bundle.yy",
+                "resourceType": "GMObject"
             }
         },
         {

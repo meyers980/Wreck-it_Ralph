@@ -23,16 +23,15 @@ if(global.playerinput == "yes")
 	/// @DnDVersion : 1
 	/// @DnDHash : 22CB8B87
 	/// @DnDParent : 04090F4C
-	/// @DnDArgument : "spriteind" "Walking_Ralph"
-	/// @DnDSaveInfo : "spriteind" "071626f4-7473-48a9-b271-59560ea40696"
-	sprite_index = Walking_Ralph;
+	/// @DnDArgument : "spriteind" "Walking_Ralph_Left"
+	/// @DnDSaveInfo : "spriteind" "8429015b-9ca0-4343-84fb-cfc53fee53f7"
+	sprite_index = Walking_Ralph_Left;
 	image_index = 0;
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
-	/// @DnDHash : 4AE77DED
+	/// @DnDHash : 7CC5BECB
 	/// @DnDParent : 04090F4C
-	/// @DnDArgument : "xscale" "-1"
-	image_xscale = -1;
+	image_xscale = 1;
 	image_yscale = 1;
 }

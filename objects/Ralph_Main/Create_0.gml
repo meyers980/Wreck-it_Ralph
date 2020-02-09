@@ -11,6 +11,12 @@ __dnd_score = real(0);
 
 __dnd_lives = real(2);
 
+/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
+/// @DnDVersion : 1.1
+/// @DnDHash : 30790751
+/// @DnDArgument : "direction" "180"
+direction = 180;
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 62395168

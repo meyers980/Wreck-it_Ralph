@@ -48,6 +48,13 @@ direction = 270;
 /// @DnDArgument : "speed" "4"
 speed = 4;
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 10A3AFD2
+/// @DnDArgument : "soundid" "FloorComplete_GoDown"
+/// @DnDSaveInfo : "soundid" "70f5b69a-99c1-4ee2-a439-5c183f99f30e"
+audio_play_sound(FloorComplete_GoDown, 0, 0);
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 3643E11B

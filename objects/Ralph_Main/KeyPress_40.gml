@@ -19,8 +19,8 @@ if(global.playerinput == "yes")
 	/// @DnDParent : 41E1FC70
 	/// @DnDArgument : "var" "ralphy"
 	/// @DnDArgument : "op" "1"
-	/// @DnDArgument : "value" "200"
-	if(ralphy < 200)
+	/// @DnDArgument : "value" "540"
+	if(ralphy < 540)
 	{
 		/// @DnDAction : YoYo Games.Common.Set_Global
 		/// @DnDVersion : 1

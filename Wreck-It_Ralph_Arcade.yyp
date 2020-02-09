@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "3f40693f-41fa-44bc-a285-2e877e660c72",
+            "Value": {
+                "id": "e20920fc-bdec-4882-9224-1b4b7c6cfa7a",
+                "resourcePath": "rooms\\Gameplay_Level_Top\\Gameplay_Level_Top.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "475ce33d-0feb-405d-b73b-06d3137b5ab8",
             "Value": {
                 "id": "02eee92c-87de-4f4e-bcbb-4ffdba4cbbc6",
@@ -259,6 +267,14 @@
             "Value": {
                 "id": "1cec1200-eba8-4d10-b0a6-e3b4bd47fb47",
                 "resourcePath": "sprites\\Ralph_Climb\\Ralph_Climb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5e9b3f9f-ff4b-4fd2-aa6d-1826fd7f3030",
+            "Value": {
+                "id": "b8f14a0c-defb-4685-a96f-7d3075d37eab",
+                "resourcePath": "sprites\\TopFloors\\TopFloors.yy",
                 "resourceType": "GMSprite"
             }
         },

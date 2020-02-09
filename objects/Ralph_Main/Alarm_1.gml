@@ -17,7 +17,14 @@ switch(l20E960F2_0)
 	/// @DnDParent : 20E960F2
 	/// @DnDArgument : "const" ""Gameplay_Level_Top""
 	case "Gameplay_Level_Top":
-	
+		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 74EE261C
+		/// @DnDParent : 7425C867
+		/// @DnDArgument : "x" "240"
+		/// @DnDArgument : "y" "154"
+		x = 240;
+		y = 154;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case

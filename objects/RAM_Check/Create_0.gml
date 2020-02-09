@@ -34,8 +34,46 @@ if(savescores == "false")
 	/// @DnDVersion : 1
 	/// @DnDHash : 19B4AC97
 	/// @DnDParent : 42376B09
-	/// @DnDArgument : "code" "highscore_clear();"
+	/// @DnDArgument : "code" "highscore_clear();$(13_10)highscore_add("SAM", 15000);$(13_10)highscore_add("FUN", 10000);$(13_10)highscore_add("JKF", 9000);$(13_10)highscore_add("JJE", 8000);$(13_10)highscore_add("JCM", 7000);$(13_10)highscore_add("IMM", 6000);$(13_10)highscore_add("MOM", 5000);$(13_10)highscore_add("DAD", 4000);$(13_10)highscore_add("BOO", 3000);$(13_10)highscore_add("FUN", 2000);$(13_10)global.highscore = highscore_value(1);"
 	highscore_clear();
+	highscore_add("SAM", 15000);
+	highscore_add("FUN", 10000);
+	highscore_add("JKF", 9000);
+	highscore_add("JJE", 8000);
+	highscore_add("JCM", 7000);
+	highscore_add("IMM", 6000);
+	highscore_add("MOM", 5000);
+	highscore_add("DAD", 4000);
+	highscore_add("BOO", 3000);
+	highscore_add("FUN", 2000);
+	global.highscore = highscore_value(1);
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 7AB20B8A
+else
+{
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 12B03FCE
+	/// @DnDParent : 7AB20B8A
+	/// @DnDArgument : "code" "global.highscore = highscore_value(1);$(13_10)if global.highscore < 1$(13_10){$(13_10)highscore_add("SAM", 15000);$(13_10)highscore_add("FUN", 10000);$(13_10)highscore_add("JKF", 9000);$(13_10)highscore_add("JJE", 8000);$(13_10)highscore_add("JCM", 7000);$(13_10)highscore_add("IMM", 6000);$(13_10)highscore_add("MOM", 5000);$(13_10)highscore_add("DAD", 4000);$(13_10)highscore_add("BOO", 3000);$(13_10)highscore_add("FUN", 2000);$(13_10)}$(13_10)global.highscore = highscore_value(1);"
+	global.highscore = highscore_value(1);
+	if global.highscore < 1
+	{
+	highscore_add("SAM", 15000);
+	highscore_add("FUN", 10000);
+	highscore_add("JKF", 9000);
+	highscore_add("JJE", 8000);
+	highscore_add("JCM", 7000);
+	highscore_add("IMM", 6000);
+	highscore_add("MOM", 5000);
+	highscore_add("DAD", 4000);
+	highscore_add("BOO", 3000);
+	highscore_add("FUN", 2000);
+	}
+	global.highscore = highscore_value(1);
 }
 
 /// @DnDAction : YoYo Games.Files.Close_Ini

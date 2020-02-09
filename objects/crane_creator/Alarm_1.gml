@@ -11,8 +11,8 @@ cranecreate = floor(random_range(0, 5 + 1));
 /// @DnDHash : 6A207615
 /// @DnDArgument : "var" "cranecreate"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "1"
-if(cranecreate > 1)
+/// @DnDArgument : "value" "3"
+if(cranecreate > 3)
 {
 	/// @DnDAction : YoYo Games.Random.Choose
 	/// @DnDVersion : 1

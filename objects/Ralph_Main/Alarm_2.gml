@@ -24,11 +24,12 @@ switch(l468323F6_0)
 		/// @DnDParent : 1C63793C
 		/// @DnDArgument : "xpos" "-75"
 		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos" "40"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "brick_bundle"
 		/// @DnDArgument : "layer" ""Bricks""
 		/// @DnDSaveInfo : "objectid" "fb9c8ad4-11ec-4fa5-919b-e0704c03193e"
-		instance_create_layer(x + -75, y + 0, "Bricks", brick_bundle);
+		instance_create_layer(x + -75, y + 40, "Bricks", brick_bundle);
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -42,10 +43,11 @@ switch(l468323F6_0)
 		/// @DnDParent : 0C794186
 		/// @DnDArgument : "xpos" "75"
 		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos" "40"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "brick_bundle"
 		/// @DnDArgument : "layer" ""Bricks""
 		/// @DnDSaveInfo : "objectid" "fb9c8ad4-11ec-4fa5-919b-e0704c03193e"
-		instance_create_layer(x + 75, y + 0, "Bricks", brick_bundle);
+		instance_create_layer(x + 75, y + 40, "Bricks", brick_bundle);
 		break;
 }

@@ -111,11 +111,27 @@
             }
         },
         {
+            "Key": "10d4c1dd-4fad-4b1d-bbf8-b4adf558f201",
+            "Value": {
+                "id": "95dee18a-9b99-4bb5-b5ee-b078d35bb455",
+                "resourcePath": "timelines\\Felix\\Felix.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "11ebdbe6-9039-4815-9a04-4fec569f0ea3",
             "Value": {
                 "id": "09b1b096-942e-4dd1-8789-10701e4e4ecd",
                 "resourcePath": "sprites\\Ralph_Smash\\Ralph_Smash.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "147768b1-5376-4aa0-8bef-a1e0b03111ed",
+            "Value": {
+                "id": "af00bb88-506f-4e38-ae4b-45ecc760ae6f",
+                "resourcePath": "objects\\Felix_Main\\Felix_Main.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -295,6 +311,14 @@
             }
         },
         {
+            "Key": "50d5eacb-6f18-4d80-a525-80b2f5d8c039",
+            "Value": {
+                "id": "9f63e963-c013-4744-bcf3-8478dd7b3a35",
+                "resourcePath": "views\\50d5eacb-6f18-4d80-a525-80b2f5d8c039.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "51c6b7eb-4844-46ad-b67e-ddf1a7054e71",
             "Value": {
                 "id": "4096442d-710b-4ef4-bf58-46f2fde28289",
@@ -324,6 +348,14 @@
                 "id": "5dd7e46b-2819-4621-bf0e-809d83f293d0",
                 "resourcePath": "objects\\Window_Fixed\\Window_Fixed.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6129859b-29c3-486a-ab38-a0e9064ab394",
+            "Value": {
+                "id": "9aed9fc9-90fc-4858-8497-f030bbb7e16f",
+                "resourcePath": "sprites\\Felix_Fixing_Sprite\\Felix_Fixing_Sprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -615,6 +647,14 @@
             }
         },
         {
+            "Key": "a96829c6-59e4-4e5b-bd79-be5c76d0de67",
+            "Value": {
+                "id": "064b3f00-f2aa-4bc6-a904-7e0a03cf2ca8",
+                "resourcePath": "sprites\\Felix_Moving\\Felix_Moving.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aa2534cf-0610-4b74-b894-da0326fe3cb5",
             "Value": {
                 "id": "f7ee0bfa-67af-4d34-98c6-e34d4d6d4ff9",
@@ -852,6 +892,14 @@
                 "id": "aa7305b6-e45c-4edf-af0f-f0c4db92a83a",
                 "resourcePath": "views\\e823800d-224e-496d-879d-809003cfeefd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ed1f8f92-6b16-4933-92d7-b837ed0771bb",
+            "Value": {
+                "id": "dd87ba7f-3b7d-4417-a90d-0e82eef46f9e",
+                "resourcePath": "objects\\Felix_Fixing\\Felix_Fixing.yy",
+                "resourceType": "GMObject"
             }
         },
         {

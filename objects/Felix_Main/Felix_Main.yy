@@ -1,28 +1,18 @@
 {
-    "id": "7ed57c8c-7cc3-4520-8437-2db7e7713564",
+    "id": "147768b1-5376-4aa0-8bef-a1e0b03111ed",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Window_Broken",
+    "name": "Felix_Main",
     "eventList": [
         {
-            "id": "f7726298-fbc4-4464-a286-4e6665e776e9",
+            "id": "dc9279e8-c50d-4e79-89c3-bdafaeb39e60",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "7ed57c8c-7cc3-4520-8437-2db7e7713564"
-        },
-        {
-            "id": "9fd466e7-a1d7-4d36-b02e-2209d70246fd",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "ed1f8f92-6b16-4933-92d7-b837ed0771bb",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "7ed57c8c-7cc3-4520-8437-2db7e7713564"
+            "m_owner": "147768b1-5376-4aa0-8bef-a1e0b03111ed"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a781af56-5e5a-4363-b9bd-7717fe573d4f",
+    "spriteId": "a96829c6-59e4-4e5b-bd79-be5c76d0de67",
     "visible": true
 }

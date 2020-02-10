@@ -28,6 +28,12 @@ with(nicelander_enemy) instance_destroy();
 /// @DnDApplyTo : b691db1f-465c-45fc-bce6-e330a1686993
 with(invisiblewall) instance_destroy();
 
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 33CB45BB
+/// @DnDApplyTo : 9414f784-7807-48d5-ba25-d915d1e92db0
+with(wreckingball_swingleft) instance_destroy();
+
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 2E0B89D4

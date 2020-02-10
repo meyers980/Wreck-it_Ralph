@@ -9,3 +9,4 @@ Right = Right_Arrow
 Down = Down_Arrow
 Up = Up_Arrow
 Ctrl = Smash
+Alt = Throw

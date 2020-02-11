@@ -93,7 +93,42 @@ switch(l4D4F50C2_0)
 	/// @DnDParent : 4D4F50C2
 	/// @DnDArgument : "const" "735"
 	case 735:
+		/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 76565E3A
+		/// @DnDParent : 1D3E0E22
+		/// @DnDArgument : "x" "103"
+		/// @DnDArgument : "y" "568"
+		direction = point_direction(x, y, 103, 568);
 	
+		/// @DnDAction : YoYo Games.Movement.Set_Speed
+		/// @DnDVersion : 1
+		/// @DnDHash : 67195592
+		/// @DnDParent : 1D3E0E22
+		/// @DnDArgument : "speed" "4"
+		speed = 4;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 41A60D42
+		/// @DnDInput : 3
+		/// @DnDParent : 1D3E0E22
+		/// @DnDArgument : "expr" "103"
+		/// @DnDArgument : "expr_1" "568"
+		/// @DnDArgument : "var" "gotox"
+		/// @DnDArgument : "var_1" "gotoy"
+		/// @DnDArgument : "var_2" "stopfelix"
+		gotox = 103;
+		gotoy = 568;
+		stopfelix = 0;
+	
+		/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+		/// @DnDVersion : 1
+		/// @DnDHash : 2AC1AA37
+		/// @DnDParent : 1D3E0E22
+		/// @DnDArgument : "state" "3"
+		timeline_running = false;
+		timeline_position = 0;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case

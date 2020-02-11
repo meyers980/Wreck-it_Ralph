@@ -29,6 +29,15 @@ if(stopfelix == 0)
 		/// @DnDArgument : "expr" "currenty <= gotoy + 2 && currenty >= gotoy - 2"
 		if(currenty <= gotoy + 2 && currenty >= gotoy - 2)
 		{
+			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+			/// @DnDVersion : 1
+			/// @DnDHash : 7BB4CF86
+			/// @DnDParent : 1BA5DA68
+			/// @DnDArgument : "x" "gotox"
+			/// @DnDArgument : "y" "gotoy"
+			x = gotox;
+			y = gotoy;
+		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 78170492

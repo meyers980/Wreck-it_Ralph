@@ -15,54 +15,52 @@ if(stopfelix == 0)
 	currentx = x;
 	currenty = y;
 
-	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
-	/// @DnDHash : 35C01484
+	/// @DnDHash : 31A4B5AB
 	/// @DnDParent : 20FE2129
-	/// @DnDArgument : "var" "currentx"
-	/// @DnDArgument : "value" "gotox"
-	if(currentx == gotox)
+	/// @DnDArgument : "expr" "currentx <= gotox + 2 && currentx >= gotox - 2"
+	if(currentx <= gotox + 2 && currentx >= gotox - 2)
 	{
-		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDAction : YoYo Games.Common.If_Expression
 		/// @DnDVersion : 1
-		/// @DnDHash : 177C704F
-		/// @DnDParent : 35C01484
-		/// @DnDArgument : "var" "currenty"
-		/// @DnDArgument : "value" "gotoy"
-		if(currenty == gotoy)
+		/// @DnDHash : 1BA5DA68
+		/// @DnDParent : 31A4B5AB
+		/// @DnDArgument : "expr" "currenty <= gotoy + 2 && currenty >= gotoy - 2"
+		if(currenty <= gotoy + 2 && currenty >= gotoy - 2)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 5B4016D1
-			/// @DnDParent : 177C704F
+			/// @DnDHash : 78170492
+			/// @DnDParent : 1BA5DA68
 			/// @DnDArgument : "expr" "1"
 			/// @DnDArgument : "var" "stopfelix"
 			stopfelix = 1;
 		
 			/// @DnDAction : YoYo Games.Movement.Set_Speed
 			/// @DnDVersion : 1
-			/// @DnDHash : 16A88175
-			/// @DnDParent : 177C704F
+			/// @DnDHash : 0A7489EB
+			/// @DnDParent : 1BA5DA68
 			speed = 0;
 		
 			/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 			/// @DnDVersion : 1
-			/// @DnDHash : 145F215C
-			/// @DnDParent : 177C704F
+			/// @DnDHash : 2C702337
+			/// @DnDParent : 1BA5DA68
 			/// @DnDArgument : "speed" "0"
 			image_speed = 0;
 		
 			/// @DnDAction : YoYo Games.Common.Execute_Code
 			/// @DnDVersion : 1
-			/// @DnDHash : 0B6C8204
-			/// @DnDParent : 177C704F
+			/// @DnDHash : 1476EC3E
+			/// @DnDParent : 1BA5DA68
 			/// @DnDArgument : "code" "image_index = 0"
 			image_index = 0
 		
 			/// @DnDAction : YoYo Games.Timelines.Set_Timeline
 			/// @DnDVersion : 1
-			/// @DnDHash : 5989DE09
-			/// @DnDParent : 177C704F
+			/// @DnDHash : 3E8636DE
+			/// @DnDParent : 1BA5DA68
 			/// @DnDArgument : "timeline" "Felix"
 			/// @DnDSaveInfo : "timeline" "10d4c1dd-4fad-4b1d-bbf8-b4adf558f201"
 			timeline_index = Felix;

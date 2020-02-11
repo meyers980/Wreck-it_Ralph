@@ -1,3 +1,14 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2FA51159
+/// @DnDInput : 3
+/// @DnDArgument : "var" "gotox"
+/// @DnDArgument : "var_1" "gotoy"
+/// @DnDArgument : "var_2" "stopfelix"
+gotox = 0;
+gotoy = 0;
+stopfelix = 0;
+
 /// @DnDAction : YoYo Games.Timelines.Set_Timeline
 /// @DnDVersion : 1
 /// @DnDHash : 1CD741FB

@@ -1,12 +1,44 @@
 /// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 13CE9A06
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "target" "currentx"
 /// @DnDArgument : "target_1" "currenty"
+/// @DnDArgument : "target_2" "felixdirection"
 /// @DnDArgument : "instvar_1" "1"
+/// @DnDArgument : "instvar_2" "6"
 currentx = x;
 currenty = y;
+felixdirection = direction;
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 2B541D4E
+/// @DnDArgument : "expr" "felixdirection > 270 || felixdirection < 90"
+if(felixdirection > 270 || felixdirection < 90)
+{
+	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 130B875B
+	/// @DnDParent : 2B541D4E
+	/// @DnDArgument : "xscale" "-1"
+	image_xscale = -1;
+	image_yscale = 1;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 5CD298C5
+/// @DnDArgument : "expr" "felixdirection < 270 && felixdirection > 90"
+if(felixdirection < 270 && felixdirection > 90)
+{
+	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 3413031C
+	/// @DnDParent : 5CD298C5
+	image_xscale = 1;
+	image_yscale = 1;
+}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

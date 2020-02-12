@@ -9,14 +9,5 @@ draw_self();
 /// @DnDArgument : "x" "50"
 /// @DnDArgument : "y" "50"
 /// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" "currentx"
-draw_text(50, 50,  + string(currentx));
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 3139DDDD
-/// @DnDArgument : "x" "50"
-/// @DnDArgument : "y" "100"
-/// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" "currenty"
-draw_text(50, 100,  + string(currenty));
+/// @DnDArgument : "var" "felixdirection"
+draw_text(50, 50,  + string(felixdirection));

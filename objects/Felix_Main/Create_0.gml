@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
+/// @DnDVersion : 1.1
+/// @DnDHash : 66E484C4
+/// @DnDArgument : "direction" "180"
+direction = 180;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2FA51159

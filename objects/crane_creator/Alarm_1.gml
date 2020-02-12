@@ -11,8 +11,8 @@ cranecreate = floor(random_range(0, 5 + 1));
 /// @DnDHash : 6A207615
 /// @DnDArgument : "var" "cranecreate"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "3"
-if(cranecreate > 3)
+/// @DnDArgument : "value" "4"
+if(cranecreate > 4)
 {
 	/// @DnDAction : YoYo Games.Random.Choose
 	/// @DnDVersion : 1
@@ -65,6 +65,6 @@ if(cranecreate > 3)
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 68333B32
-/// @DnDArgument : "steps" "120"
+/// @DnDArgument : "steps" "240"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, 120);
+alarm_set(1, 240);

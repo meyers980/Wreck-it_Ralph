@@ -49,8 +49,8 @@ if(global.playerinput == "yes")
 	/// @DnDArgument : "var" "bricknumber"
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "min" "1"
-	/// @DnDArgument : "max" "4"
-	bricknumber = floor(random_range(1, 4 + 1));
+	/// @DnDArgument : "max" "6"
+	bricknumber = floor(random_range(1, 6 + 1));
 
 	/// @DnDAction : YoYo Games.Loops.Repeat
 	/// @DnDVersion : 1

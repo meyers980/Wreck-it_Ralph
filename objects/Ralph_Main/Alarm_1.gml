@@ -52,13 +52,10 @@ switch(l20E960F2_0)
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
 		/// @DnDHash : 1A87E345
-		/// @DnDApplyTo : 349637d5-5421-4fd7-adf4-1bb42cafb062
 		/// @DnDParent : 4A89D4AD
 		/// @DnDArgument : "x" "240"
 		/// @DnDArgument : "y" "140"
-		with(Ralph_Main) {
 		x = 240;
 		y = 140;
-		}
 		break;
 }

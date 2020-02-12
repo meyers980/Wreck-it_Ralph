@@ -5,6 +5,14 @@
 if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 if(__dnd_lives < 0)
 {
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 4EDAB9FC
+	/// @DnDParent : 46FEC3C7
+	/// @DnDArgument : "soundid" "zero_lives"
+	/// @DnDSaveInfo : "soundid" "6f280bc1-3a04-4907-a4ca-76c0fb60cffc"
+	audio_play_sound(zero_lives, 0, 0);
+
 	/// @DnDAction : YoYo Games.Instance Variables.Get_Score
 	/// @DnDVersion : 1
 	/// @DnDHash : 43735F59

@@ -1,20 +1,19 @@
+/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
+/// @DnDVersion : 1
+/// @DnDHash : 13CE9A06
+/// @DnDInput : 2
+/// @DnDArgument : "target" "currentx"
+/// @DnDArgument : "target_1" "currenty"
+/// @DnDArgument : "instvar_1" "1"
+currentx = x;
+currenty = y;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 20FE2129
 /// @DnDArgument : "var" "stopfelix"
 if(stopfelix == 0)
 {
-	/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
-	/// @DnDVersion : 1
-	/// @DnDHash : 13CE9A06
-	/// @DnDInput : 2
-	/// @DnDParent : 20FE2129
-	/// @DnDArgument : "target" "currentx"
-	/// @DnDArgument : "target_1" "currenty"
-	/// @DnDArgument : "instvar_1" "1"
-	currentx = x;
-	currenty = y;
-
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
 	/// @DnDHash : 31A4B5AB
@@ -68,11 +67,11 @@ if(stopfelix == 0)
 		
 			/// @DnDAction : YoYo Games.Timelines.Set_Timeline
 			/// @DnDVersion : 1
-			/// @DnDHash : 3E8636DE
+			/// @DnDHash : 45BA110E
 			/// @DnDParent : 1BA5DA68
-			/// @DnDArgument : "timeline" "Felix"
-			/// @DnDSaveInfo : "timeline" "10d4c1dd-4fad-4b1d-bbf8-b4adf558f201"
-			timeline_index = Felix;
+			/// @DnDArgument : "timeline" "felix_fix"
+			/// @DnDSaveInfo : "timeline" "a2732923-4173-4579-9e48-b43b744664fc"
+			timeline_index = felix_fix;
 			timeline_loop = 0;
 			timeline_running = 1;
 		}

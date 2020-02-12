@@ -73,9 +73,8 @@ if(global.playerinput == "yes")
 		/// @DnDHash : 7A9ED418
 		/// @DnDParent : 452DA3E8
 		/// @DnDArgument : "var" "randomy"
-		/// @DnDArgument : "min" "-40"
 		/// @DnDArgument : "max" "40"
-		randomy = (random_range(-40, 40));
+		randomy = (random_range(0, 40));
 	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1

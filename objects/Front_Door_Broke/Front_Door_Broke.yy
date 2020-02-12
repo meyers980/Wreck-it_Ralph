@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "Front_Door_Broke",
     "eventList": [
-        
+        {
+            "id": "b5fc4445-cee7-47d8-bcd1-e2fea9042abf",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "ed1f8f92-6b16-4933-92d7-b837ed0771bb",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "68630090-be9e-4f9e-8030-ee735fc3ae65"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

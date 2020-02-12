@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "Large_Window_Broke",
     "eventList": [
-        
+        {
+            "id": "aafd8c1f-9e3c-4dca-9e3e-3940a21d593a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "ed1f8f92-6b16-4933-92d7-b837ed0771bb",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "f1a51db0-d22b-40f3-96fc-7a918fe99fff"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

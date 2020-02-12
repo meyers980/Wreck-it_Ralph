@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "020b0318-0e90-4486-886e-d925a108f4eb",
+            "Value": {
+                "id": "7baf5fb7-58e8-464e-a2ea-925ad5a7a827",
+                "resourcePath": "sounds\\start_game\\start_game.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "03a39193-a7f4-431c-ae74-d814309869ed",
             "Value": {
                 "id": "77fbeec5-1a54-4f8f-9d63-4eea13a9ca90",
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "6f280bc1-3a04-4907-a4ca-76c0fb60cffc",
+            "Value": {
+                "id": "655d077d-8ec3-4c0a-b260-d690e6430880",
+                "resourcePath": "sounds\\zero_lives\\zero_lives.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "705fd7c4-aa85-4106-96d6-50720cfe7fb2",
             "Value": {
                 "id": "18d60f8e-df44-49aa-9e70-e2d8abae1b32",
@@ -623,6 +639,22 @@
             }
         },
         {
+            "Key": "a2732923-4173-4579-9e48-b43b744664fc",
+            "Value": {
+                "id": "5fa03ba9-bed5-4acd-b206-0a2b21e08d63",
+                "resourcePath": "timelines\\felix_fix\\felix_fix.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "a2a5515e-d8bd-45b1-a026-5c2aae18a5c7",
+            "Value": {
+                "id": "f180109d-ad5c-4745-ad48-de4300d1b834",
+                "resourcePath": "sounds\\windowfixed_sound\\windowfixed_sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a375f348-e395-42e6-8e65-c6ca5679d953",
             "Value": {
                 "id": "6d3a2fd2-7551-4f78-ad43-932e8c59a8e7",
@@ -764,6 +796,14 @@
                 "id": "a332fd50-7079-4c8b-a82d-208e7163c9b6",
                 "resourcePath": "sprites\\brick_bundle_sprite\\brick_bundle_sprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "baddb82d-17c0-4a07-b372-ad0d6ac27e10",
+            "Value": {
+                "id": "d42a0eac-4ffb-4277-adcb-67aa29460f8a",
+                "resourcePath": "sounds\\hit_sound\\hit_sound.yy",
+                "resourceType": "GMSound"
             }
         },
         {

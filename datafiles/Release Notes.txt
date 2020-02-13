@@ -1,0 +1,14 @@
+[Release Notes]
+
+Beta Relase 0.010
+-All enemy types created and functional (nicelanders, cranes, bulldozers, dropped wreckingballs)
+-Felix created for bottom floor, moves around and fixes things
+-Highscore save or reset setting completed, with initials
+TO DO NEXT
+Create level tracking system to up difficulty per level
+Intro cut scene
+Sounds for some enemies when taking damage or giving damage
+Song during gameplay
+
+Alpha Releases, Up to 0.009
+-No notes kept during this time. Initial creation of assets and game

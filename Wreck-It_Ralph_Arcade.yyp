@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "78463544-504f-4ee9-ab58-80a4a756bc78",
+            "Value": {
+                "id": "3481d8a8-f14e-4bee-81b3-616e46aa92b1",
+                "resourcePath": "datafiles_yy\\Release Notes.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "7c11b522-e7e5-4d7d-9fbb-a2487d2c21e9",
             "Value": {
                 "id": "158b169a-eae6-4561-85b5-77effcd73c64",

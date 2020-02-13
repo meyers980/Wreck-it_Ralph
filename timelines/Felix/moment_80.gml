@@ -1683,4 +1683,714 @@ switch(l4D4F50C2_0)
 				break;
 		}
 		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 7F46A78E
+	/// @DnDParent : 4D4F50C2
+	/// @DnDArgument : "const" "733"
+	case 733:
+		/// @DnDAction : YoYo Games.Random.Choose
+		/// @DnDVersion : 1
+		/// @DnDHash : 32B64078
+		/// @DnDInput : 2
+		/// @DnDParent : 7F46A78E
+		/// @DnDArgument : "var" "felixgoes"
+		/// @DnDArgument : "var_temp" "1"
+		/// @DnDArgument : "option" "1"
+		/// @DnDArgument : "option_1" "2"
+		var felixgoes = choose(1, 2);
+	
+		/// @DnDAction : YoYo Games.Switch.Switch
+		/// @DnDVersion : 1
+		/// @DnDHash : 5AD2B721
+		/// @DnDParent : 7F46A78E
+		/// @DnDArgument : "expr" "felixgoes"
+		var l5AD2B721_0 = felixgoes;
+		switch(l5AD2B721_0)
+		{
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 26DA8409
+			/// @DnDParent : 5AD2B721
+			/// @DnDArgument : "const" "1"
+			case 1:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 01641B5B
+				/// @DnDParent : 26DA8409
+				/// @DnDArgument : "x" "311"
+				/// @DnDArgument : "y" "358"
+				direction = point_direction(x, y, 311, 358);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 6B82745F
+				/// @DnDParent : 26DA8409
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 48739BEB
+				/// @DnDInput : 3
+				/// @DnDParent : 26DA8409
+				/// @DnDArgument : "expr" "311"
+				/// @DnDArgument : "expr_1" "358"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 311;
+				gotoy = 358;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 4422EE3E
+				/// @DnDParent : 26DA8409
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 5FC4ABFC
+			/// @DnDParent : 5AD2B721
+			/// @DnDArgument : "const" "2"
+			case 2:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 773F6D47
+				/// @DnDParent : 5FC4ABFC
+				/// @DnDArgument : "x" "375"
+				/// @DnDArgument : "y" "470"
+				direction = point_direction(x, y, 375, 470);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 29E71FF3
+				/// @DnDParent : 5FC4ABFC
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 33746DFB
+				/// @DnDInput : 3
+				/// @DnDParent : 5FC4ABFC
+				/// @DnDArgument : "expr" "375"
+				/// @DnDArgument : "expr_1" "470"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 375;
+				gotoy = 470;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 291412E4
+				/// @DnDParent : 5FC4ABFC
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		}
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 07894F7A
+	/// @DnDParent : 4D4F50C2
+	/// @DnDArgument : "const" "669"
+	case 669:
+		/// @DnDAction : YoYo Games.Random.Choose
+		/// @DnDVersion : 1
+		/// @DnDHash : 1CB25B16
+		/// @DnDInput : 3
+		/// @DnDParent : 07894F7A
+		/// @DnDArgument : "var" "felixgoes"
+		/// @DnDArgument : "var_temp" "1"
+		/// @DnDArgument : "option" "1"
+		/// @DnDArgument : "option_1" "2"
+		/// @DnDArgument : "option_2" "3"
+		var felixgoes = choose(1, 2, 3);
+	
+		/// @DnDAction : YoYo Games.Switch.Switch
+		/// @DnDVersion : 1
+		/// @DnDHash : 1EB62A6C
+		/// @DnDParent : 07894F7A
+		/// @DnDArgument : "expr" "felixgoes"
+		var l1EB62A6C_0 = felixgoes;
+		switch(l1EB62A6C_0)
+		{
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 2DF841FE
+			/// @DnDParent : 1EB62A6C
+			/// @DnDArgument : "const" "1"
+			case 1:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 6D049053
+				/// @DnDParent : 2DF841FE
+				/// @DnDArgument : "x" "240"
+				/// @DnDArgument : "y" "358"
+				direction = point_direction(x, y, 240, 358);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 585CA0F4
+				/// @DnDParent : 2DF841FE
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 7980B7C6
+				/// @DnDInput : 3
+				/// @DnDParent : 2DF841FE
+				/// @DnDArgument : "expr" "240"
+				/// @DnDArgument : "expr_1" "358"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 240;
+				gotoy = 358;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 101A9E0D
+				/// @DnDParent : 2DF841FE
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 37669724
+			/// @DnDParent : 1EB62A6C
+			/// @DnDArgument : "const" "2"
+			case 2:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 64C2BBDB
+				/// @DnDParent : 37669724
+				/// @DnDArgument : "x" "311"
+				/// @DnDArgument : "y" "470"
+				direction = point_direction(x, y, 311, 470);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 368717C2
+				/// @DnDParent : 37669724
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 2723280A
+				/// @DnDInput : 3
+				/// @DnDParent : 37669724
+				/// @DnDArgument : "expr" "311"
+				/// @DnDArgument : "expr_1" "470"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 311;
+				gotoy = 470;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 75AE04B4
+				/// @DnDParent : 37669724
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 6B2C1342
+			/// @DnDParent : 1EB62A6C
+			/// @DnDArgument : "const" "3"
+			case 3:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 54E81CE3
+				/// @DnDParent : 6B2C1342
+				/// @DnDArgument : "x" "375"
+				/// @DnDArgument : "y" "358"
+				direction = point_direction(x, y, 375, 358);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 78D3E1A5
+				/// @DnDParent : 6B2C1342
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 700FE6D4
+				/// @DnDInput : 3
+				/// @DnDParent : 6B2C1342
+				/// @DnDArgument : "expr" "375"
+				/// @DnDArgument : "expr_1" "358"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 375;
+				gotoy = 358;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 01F2009C
+				/// @DnDParent : 6B2C1342
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		}
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 6D537D69
+	/// @DnDParent : 4D4F50C2
+	/// @DnDArgument : "const" "598"
+	case 598:
+		/// @DnDAction : YoYo Games.Random.Choose
+		/// @DnDVersion : 1
+		/// @DnDHash : 2E000BDE
+		/// @DnDInput : 3
+		/// @DnDParent : 6D537D69
+		/// @DnDArgument : "var" "felixgoes"
+		/// @DnDArgument : "var_temp" "1"
+		/// @DnDArgument : "option" "1"
+		/// @DnDArgument : "option_1" "2"
+		/// @DnDArgument : "option_2" "3"
+		var felixgoes = choose(1, 2, 3);
+	
+		/// @DnDAction : YoYo Games.Switch.Switch
+		/// @DnDVersion : 1
+		/// @DnDHash : 32737CC4
+		/// @DnDParent : 6D537D69
+		/// @DnDArgument : "expr" "felixgoes"
+		var l32737CC4_0 = felixgoes;
+		switch(l32737CC4_0)
+		{
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 1FA62073
+			/// @DnDParent : 32737CC4
+			/// @DnDArgument : "const" "1"
+			case 1:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 43695499
+				/// @DnDParent : 1FA62073
+				/// @DnDArgument : "x" "167"
+				/// @DnDArgument : "y" "358"
+				direction = point_direction(x, y, 167, 358);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 7BFE6C75
+				/// @DnDParent : 1FA62073
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 3F9C0B17
+				/// @DnDInput : 3
+				/// @DnDParent : 1FA62073
+				/// @DnDArgument : "expr" "167"
+				/// @DnDArgument : "expr_1" "358"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 167;
+				gotoy = 358;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 6858F5D2
+				/// @DnDParent : 1FA62073
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 472DA924
+			/// @DnDParent : 32737CC4
+			/// @DnDArgument : "const" "2"
+			case 2:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 29EAA7C3
+				/// @DnDParent : 472DA924
+				/// @DnDArgument : "x" "240"
+				/// @DnDArgument : "y" "473"
+				direction = point_direction(x, y, 240, 473);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 5750DB04
+				/// @DnDParent : 472DA924
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 5ACE9EA2
+				/// @DnDInput : 3
+				/// @DnDParent : 472DA924
+				/// @DnDArgument : "expr" "240"
+				/// @DnDArgument : "expr_1" "473"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 240;
+				gotoy = 473;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 02AF97DD
+				/// @DnDParent : 472DA924
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 6F79FF06
+			/// @DnDParent : 32737CC4
+			/// @DnDArgument : "const" "3"
+			case 3:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 41581C65
+				/// @DnDParent : 6F79FF06
+				/// @DnDArgument : "x" "311"
+				/// @DnDArgument : "y" "358"
+				direction = point_direction(x, y, 311, 358);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 706EE7E3
+				/// @DnDParent : 6F79FF06
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 7F40A079
+				/// @DnDInput : 3
+				/// @DnDParent : 6F79FF06
+				/// @DnDArgument : "expr" "311"
+				/// @DnDArgument : "expr_1" "358"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 311;
+				gotoy = 358;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 31C8ADD6
+				/// @DnDParent : 6F79FF06
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		}
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 6CDC86D7
+	/// @DnDParent : 4D4F50C2
+	/// @DnDArgument : "const" "525"
+	case 525:
+		/// @DnDAction : YoYo Games.Random.Choose
+		/// @DnDVersion : 1
+		/// @DnDHash : 226541FC
+		/// @DnDInput : 3
+		/// @DnDParent : 6CDC86D7
+		/// @DnDArgument : "var" "felixgoes"
+		/// @DnDArgument : "var_temp" "1"
+		/// @DnDArgument : "option" "1"
+		/// @DnDArgument : "option_1" "2"
+		/// @DnDArgument : "option_2" "3"
+		var felixgoes = choose(1, 2, 3);
+	
+		/// @DnDAction : YoYo Games.Switch.Switch
+		/// @DnDVersion : 1
+		/// @DnDHash : 5AEF8DEC
+		/// @DnDParent : 6CDC86D7
+		/// @DnDArgument : "expr" "felixgoes"
+		var l5AEF8DEC_0 = felixgoes;
+		switch(l5AEF8DEC_0)
+		{
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 64D83464
+			/// @DnDParent : 5AEF8DEC
+			/// @DnDArgument : "const" "1"
+			case 1:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 09C46E55
+				/// @DnDParent : 64D83464
+				/// @DnDArgument : "x" "103"
+				/// @DnDArgument : "y" "358"
+				direction = point_direction(x, y, 103, 358);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 4D079D38
+				/// @DnDParent : 64D83464
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 36027BC9
+				/// @DnDInput : 3
+				/// @DnDParent : 64D83464
+				/// @DnDArgument : "expr" "103"
+				/// @DnDArgument : "expr_1" "358"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 103;
+				gotoy = 358;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 482D1AB7
+				/// @DnDParent : 64D83464
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 6425F82B
+			/// @DnDParent : 5AEF8DEC
+			/// @DnDArgument : "const" "2"
+			case 2:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 22B87757
+				/// @DnDParent : 6425F82B
+				/// @DnDArgument : "x" "167"
+				/// @DnDArgument : "y" "470"
+				direction = point_direction(x, y, 167, 470);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 05AB1F4A
+				/// @DnDParent : 6425F82B
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 2866B32B
+				/// @DnDInput : 3
+				/// @DnDParent : 6425F82B
+				/// @DnDArgument : "expr" "167"
+				/// @DnDArgument : "expr_1" "470"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 167;
+				gotoy = 470;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 187C75FC
+				/// @DnDParent : 6425F82B
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 668E553D
+			/// @DnDParent : 5AEF8DEC
+			/// @DnDArgument : "const" "3"
+			case 3:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 13B93B29
+				/// @DnDParent : 668E553D
+				/// @DnDArgument : "x" "240"
+				/// @DnDArgument : "y" "358"
+				direction = point_direction(x, y, 240, 358);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 6E72266E
+				/// @DnDParent : 668E553D
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 02756EB3
+				/// @DnDInput : 3
+				/// @DnDParent : 668E553D
+				/// @DnDArgument : "expr" "240"
+				/// @DnDArgument : "expr_1" "358"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 240;
+				gotoy = 358;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 3386F02E
+				/// @DnDParent : 668E553D
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		}
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 15A4C623
+	/// @DnDParent : 4D4F50C2
+	/// @DnDArgument : "const" "461"
+	case 461:
+		/// @DnDAction : YoYo Games.Random.Choose
+		/// @DnDVersion : 1
+		/// @DnDHash : 11BFBC16
+		/// @DnDInput : 2
+		/// @DnDParent : 15A4C623
+		/// @DnDArgument : "var" "felixgoes"
+		/// @DnDArgument : "var_temp" "1"
+		/// @DnDArgument : "option" "1"
+		/// @DnDArgument : "option_1" "2"
+		var felixgoes = choose(1, 2);
+	
+		/// @DnDAction : YoYo Games.Switch.Switch
+		/// @DnDVersion : 1
+		/// @DnDHash : 4B7F9C3A
+		/// @DnDParent : 15A4C623
+		/// @DnDArgument : "expr" "felixgoes"
+		var l4B7F9C3A_0 = felixgoes;
+		switch(l4B7F9C3A_0)
+		{
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 508C93A6
+			/// @DnDParent : 4B7F9C3A
+			/// @DnDArgument : "const" "1"
+			case 1:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 6B577C9D
+				/// @DnDParent : 508C93A6
+				/// @DnDArgument : "x" "103"
+				/// @DnDArgument : "y" "470"
+				direction = point_direction(x, y, 103, 470);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 6CD53E38
+				/// @DnDParent : 508C93A6
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 7F633C4F
+				/// @DnDInput : 3
+				/// @DnDParent : 508C93A6
+				/// @DnDArgument : "expr" "103"
+				/// @DnDArgument : "expr_1" "470"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 103;
+				gotoy = 470;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 0D76CA4A
+				/// @DnDParent : 508C93A6
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 771BDC5E
+			/// @DnDParent : 4B7F9C3A
+			/// @DnDArgument : "const" "2"
+			case 2:
+				/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 3F6B2D33
+				/// @DnDParent : 771BDC5E
+				/// @DnDArgument : "x" "167"
+				/// @DnDArgument : "y" "358"
+				direction = point_direction(x, y, 167, 358);
+			
+				/// @DnDAction : YoYo Games.Movement.Set_Speed
+				/// @DnDVersion : 1
+				/// @DnDHash : 28BE8AE2
+				/// @DnDParent : 771BDC5E
+				/// @DnDArgument : "speed" "4"
+				speed = 4;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 7BA476C2
+				/// @DnDInput : 3
+				/// @DnDParent : 771BDC5E
+				/// @DnDArgument : "expr" "167"
+				/// @DnDArgument : "expr_1" "358"
+				/// @DnDArgument : "var" "gotox"
+				/// @DnDArgument : "var_1" "gotoy"
+				/// @DnDArgument : "var_2" "stopfelix"
+				gotox = 167;
+				gotoy = 358;
+				stopfelix = 0;
+			
+				/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+				/// @DnDVersion : 1
+				/// @DnDHash : 763B6BBA
+				/// @DnDParent : 771BDC5E
+				/// @DnDArgument : "state" "3"
+				timeline_running = false;
+				timeline_position = 0;
+				break;
+		}
+		break;
 }

@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "7f79f88e-d097-4b28-982e-a743a9b5efe0",
+            "Value": {
+                "id": "1c33542c-4dbb-4945-a55f-a242fcd5134d",
+                "resourcePath": "objects\\bulldozer_creator\\bulldozer_creator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7f889a7a-5297-4df9-af0a-d3f53cb36692",
             "Value": {
                 "id": "ba528733-f268-4029-9481-fe8e1d434db5",

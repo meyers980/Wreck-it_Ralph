@@ -1,18 +1,28 @@
 {
-    "id": "f1a51db0-d22b-40f3-96fc-7a918fe99fff",
+    "id": "c2f14935-db20-478c-98c6-d8b74d930e08",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Large_Window_Broke",
+    "name": "Repair_Window_Object",
     "eventList": [
         {
-            "id": "aafd8c1f-9e3c-4dca-9e3e-3940a21d593a",
+            "id": "54b45eb2-9be9-4141-b788-ddcf63c08091",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
-            "collisionObjectId": "c2f14935-db20-478c-98c6-d8b74d930e08",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "f1a51db0-d22b-40f3-96fc-7a918fe99fff"
+            "eventtype": 0,
+            "m_owner": "c2f14935-db20-478c-98c6-d8b74d930e08"
+        },
+        {
+            "id": "42b16a7d-7525-4cdc-ba1a-c5823c3605ad",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "c2f14935-db20-478c-98c6-d8b74d930e08"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "bc38eccf-2ec9-4178-beba-0eb57fec7534",
+    "spriteId": "569c784e-a7eb-4cb8-b467-ecf84f01b125",
     "visible": true
 }

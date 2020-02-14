@@ -20,9 +20,12 @@ direction = 180;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 62395168
+/// @DnDInput : 2
 /// @DnDArgument : "value" ""yes""
 /// @DnDArgument : "var" "playerinput"
+/// @DnDArgument : "var_1" "level"
 global.playerinput = "yes";
+global.level = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

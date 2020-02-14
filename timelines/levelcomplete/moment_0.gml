@@ -46,6 +46,36 @@ with(bulldozer_creator) instance_destroy();
 /// @DnDApplyTo : 81d10aec-a9e4-48c0-aaa1-49f279c47aac
 with(bulldozer) instance_destroy();
 
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 294F388A
+/// @DnDApplyTo : 147768b1-5376-4aa0-8bef-a1e0b03111ed
+with(Felix_Main) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 3914AEB7
+/// @DnDApplyTo : ed1f8f92-6b16-4933-92d7-b837ed0771bb
+with(Felix_Fixing) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 14D54633
+/// @DnDApplyTo : 03a39193-a7f4-431c-ae74-d814309869ed
+with(crane_creator) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 2BBFE079
+/// @DnDApplyTo : fd516583-23e6-4eac-aa79-21f1d6907ca0
+with(crane) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 7D1FBE78
+/// @DnDApplyTo : 03a39193-a7f4-431c-ae74-d814309869ed
+with(crane_creator) instance_destroy();
+
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 2E0B89D4

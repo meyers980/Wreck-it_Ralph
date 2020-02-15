@@ -1,14 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 6035BD69
-/// @DnDInput : 2
-/// @DnDArgument : "expr" "-100"
-/// @DnDArgument : "expr_1" "-100"
-/// @DnDArgument : "var" "nicelander_spawnx"
-/// @DnDArgument : "var_1" "nicelander_spawny"
-nicelander_spawnx = -100;
-nicelander_spawny = -100;
-
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 69F03B68

@@ -1,10 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 659A4E5F
-/// @DnDArgument : "expr" "-100"
-/// @DnDArgument : "var" "ball_spawnx"
-ball_spawnx = -100;
-
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 3951665E

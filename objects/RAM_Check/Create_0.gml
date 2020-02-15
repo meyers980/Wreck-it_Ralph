@@ -90,7 +90,7 @@ licenselist = ds_list_create();
 /// @DnDAction : YoYo Games.Data Structures.List_Add
 /// @DnDVersion : 1
 /// @DnDHash : 23A9B3DB
-/// @DnDInput : 10
+/// @DnDInput : 11
 /// @DnDArgument : "var" "licenselist"
 /// @DnDArgument : "value" "100200"
 /// @DnDArgument : "value_1" "100300"
@@ -102,7 +102,8 @@ licenselist = ds_list_create();
 /// @DnDArgument : "value_7" "100900"
 /// @DnDArgument : "value_8" "200100"
 /// @DnDArgument : "value_9" "200200"
-ds_list_add(licenselist, 100200, 100300, 100400, 100500, 100600, 100700, 100800, 100900, 200100, 200200);
+/// @DnDArgument : "value_10" "100100"
+ds_list_add(licenselist, 100200, 100300, 100400, 100500, 100600, 100700, 100800, 100900, 200100, 200200, 100100);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1

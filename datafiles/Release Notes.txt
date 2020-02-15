@@ -1,5 +1,11 @@
 [Release Notes]
 
+0.022
+-More enemies spawn on higher levels
+-Better boot garble
+-Game starts over after no lives
+-Proper license input - each user will get their own number
+
 0.021
 -Levels increase
 -More floors added to building as levels increase

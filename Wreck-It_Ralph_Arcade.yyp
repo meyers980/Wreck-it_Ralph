@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "03f6f9ca-8761-4454-ae9d-9f77d83e6ba0",
+            "Value": {
+                "id": "d74b197d-13dc-44c4-afdd-45fa0277eda6",
+                "resourcePath": "rooms\\Opening_Cinematic\\Opening_Cinematic.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "04061154-127b-4891-bf09-d683eb9618b9",
             "Value": {
                 "id": "1dae9472-d82d-49e8-8f07-293cb354b624",
@@ -131,6 +139,14 @@
             "Value": {
                 "id": "09b1b096-942e-4dd1-8789-10701e4e4ecd",
                 "resourcePath": "sprites\\Ralph_Smash\\Ralph_Smash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "12d6df22-075b-41ea-9c03-467b9c78054b",
+            "Value": {
+                "id": "c30d0e6e-2b31-46b2-881b-f4e011fc6945",
+                "resourcePath": "sprites\\gonnawreckit_textsprite\\gonnawreckit_textsprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "29b4b4cb-7bbf-4361-aa6d-77746894993c",
+            "Value": {
+                "id": "720cd232-b186-4156-9147-e2b6e9018b51",
+                "resourcePath": "objects\\gonnawreckittext\\gonnawreckittext.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2d35bf00-d8b4-473b-bcc2-7413038801dd",
             "Value": {
                 "id": "30c7c6df-75b5-4eef-b7c6-99f8611e8d0c",
@@ -220,6 +244,14 @@
                 "id": "62b94be3-b5bb-4616-95cf-9deeab0ab75c",
                 "resourcePath": "objects\\Ralph_Main\\Ralph_Main.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "362f5255-fb36-4ea9-9002-5a9a251c3185",
+            "Value": {
+                "id": "2ac78044-a7eb-4368-aa13-10bae73e8c04",
+                "resourcePath": "sprites\\Ralph_Side_Climb\\Ralph_Side_Climb.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -284,6 +316,14 @@
                 "id": "5a9e74bf-6ca3-4136-919a-80a3eb5a1a59",
                 "resourcePath": "timelines\\nicelander\\nicelander.yy",
                 "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "463a7d47-103f-4230-8a67-d55321d71695",
+            "Value": {
+                "id": "ff45b7e0-7b4f-4928-9e17-1112e2611adf",
+                "resourcePath": "sounds\\Opening_Cinematic_Song\\Opening_Cinematic_Song.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -623,6 +663,14 @@
             }
         },
         {
+            "Key": "91775fb8-35ad-48e5-a85f-850727cb0b65",
+            "Value": {
+                "id": "1c14b261-5d3f-40b2-8ed7-cd447b59620b",
+                "resourcePath": "timelines\\Ralph_Opening_Cinematic\\Ralph_Opening_Cinematic.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "91ac7361-0267-45f7-a5ba-2a73d4210c3b",
             "Value": {
                 "id": "da2624d7-4b0f-4395-94ec-27487b388600",
@@ -940,6 +988,14 @@
                 "id": "e104eb67-4fad-4ae2-bb12-e406b0b09ba1",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d50a1e11-0426-45b6-95a0-786fae7b19be",
+            "Value": {
+                "id": "5d931b43-266e-4941-b804-17fedc162984",
+                "resourcePath": "objects\\Ralph_Cinematic_Opening\\Ralph_Cinematic_Opening.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -1,5 +1,9 @@
 [Release Notes]
 
+0.024
+-Opening cinematic in
+-Additional sounds and song inserted
+
 0.022
 -More enemies spawn on higher levels
 -Better boot garble

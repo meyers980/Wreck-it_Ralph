@@ -9,6 +9,14 @@ x = 240;
 y = 154;
 }
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 6CDBDBC7
+/// @DnDArgument : "soundid" "Gameplay_Music"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "soundid" "b37b162b-4d7a-43d5-8738-83d70f9ae941"
+audio_play_sound(Gameplay_Music, 0, 1);
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 584F4AC0

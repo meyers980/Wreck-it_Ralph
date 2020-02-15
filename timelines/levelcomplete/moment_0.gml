@@ -76,6 +76,13 @@ with(crane) instance_destroy();
 /// @DnDApplyTo : 03a39193-a7f4-431c-ae74-d814309869ed
 with(crane_creator) instance_destroy();
 
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 007DAD08
+/// @DnDArgument : "soundid" "Gameplay_Music"
+/// @DnDSaveInfo : "soundid" "b37b162b-4d7a-43d5-8738-83d70f9ae941"
+audio_stop_sound(Gameplay_Music);
+
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 2E0B89D4

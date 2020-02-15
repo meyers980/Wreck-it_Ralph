@@ -855,6 +855,14 @@
             }
         },
         {
+            "Key": "b37b162b-4d7a-43d5-8738-83d70f9ae941",
+            "Value": {
+                "id": "1d30f91c-0dd7-4f25-801b-1d32322bd9d7",
+                "resourcePath": "sounds\\Gameplay_Music\\Gameplay_Music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b3bcb6c5-d587-431d-8cf2-3e1bb26c20e8",
             "Value": {
                 "id": "7368d0c9-62d0-4874-a423-0d9efac0c3e1",

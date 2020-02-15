@@ -655,14 +655,6 @@
             }
         },
         {
-            "Key": "9569edb3-b48b-4e60-9b51-ba9e06853a85",
-            "Value": {
-                "id": "ef88a202-5491-4586-8e16-b06e0e27a962",
-                "resourcePath": "timelines\\garbler_timeline\\garbler_timeline.yy",
-                "resourceType": "GMTimeline"
-            }
-        },
-        {
             "Key": "9749c00a-39a5-437c-82a4-3f55c6d7c79d",
             "Value": {
                 "id": "5ebe98b7-99e8-4d6f-9a6e-fae6730bf477",
@@ -883,6 +875,14 @@
             "Value": {
                 "id": "1bf207d9-004b-441d-ba8f-a8767dc52077",
                 "resourcePath": "sprites\\Large_Window_Broke_Sprite\\Large_Window_Broke_Sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bdf4c1e4-267c-416b-9c07-5ed1e4e24935",
+            "Value": {
+                "id": "7b906db9-ecbc-4cdc-af83-743a4d78e6e4",
+                "resourcePath": "sprites\\garbles_sprite\\garbles_sprite.yy",
                 "resourceType": "GMSprite"
             }
         },

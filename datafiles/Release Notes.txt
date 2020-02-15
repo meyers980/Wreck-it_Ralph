@@ -1,5 +1,12 @@
 [Release Notes]
 
+0.021
+-Levels increase
+-More floors added to building as levels increase
+-Felix better fixes windows
+-Small cutscene after completing level
+-Additional sounds added
+
 Beta Relase 0.010
 -All enemy types created and functional (nicelanders, cranes, bulldozers, dropped wreckingballs)
 -Felix created for bottom floor, moves around and fixes things

@@ -14,9 +14,9 @@ draw_text(60, 50, string("RAM OK") + "");
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 766D6C27
-/// @DnDArgument : "var" "license"
-/// @DnDArgument : "value" "1024"
-if(license == 1024)
+/// @DnDArgument : "var" "inlist"
+/// @DnDArgument : "op" "4"
+if(inlist >= 0)
 {
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1

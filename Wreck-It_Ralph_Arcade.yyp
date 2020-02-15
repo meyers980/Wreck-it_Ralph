@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "b3a684db-e2fe-4c0c-a1e2-328225272df1",
+            "Value": {
+                "id": "1aa32b31-6b59-467e-b09e-e368376c6976",
+                "resourcePath": "timelines\\ralph_zerolives\\ralph_zerolives.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "b3bcb6c5-d587-431d-8cf2-3e1bb26c20e8",
             "Value": {
                 "id": "7368d0c9-62d0-4874-a423-0d9efac0c3e1",
@@ -996,6 +1004,14 @@
                 "id": "e104eb67-4fad-4ae2-bb12-e406b0b09ba1",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d4249da0-931c-4e0b-8fd9-87d6ec3a7991",
+            "Value": {
+                "id": "d06895dd-dcaf-49f9-89de-f7c44576b4a2",
+                "resourcePath": "sprites\\Ralph_Dead_Sprite\\Ralph_Dead_Sprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

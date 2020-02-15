@@ -16,7 +16,8 @@
         "7f889a7a-5297-4df9-af0a-d3f53cb36692",
         "af0bcb6d-dbc2-4bda-963d-2ec461210952",
         "362f5255-fb36-4ea9-9002-5a9a251c3185",
-        "12d6df22-075b-41ea-9c03-467b9c78054b"
+        "12d6df22-075b-41ea-9c03-467b9c78054b",
+        "d4249da0-931c-4e0b-8fd9-87d6ec3a7991"
     ],
     "filterType": "GMSprite",
     "folderName": "Ralphs",

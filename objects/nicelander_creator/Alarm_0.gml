@@ -3,16 +3,16 @@
 /// @DnDHash : 7137EDCC
 /// @DnDArgument : "var" "enemycreate"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "5"
-enemycreate = floor(random_range(0, 5 + 1));
+/// @DnDArgument : "max" "10"
+enemycreate = floor(random_range(0, 10 + 1));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 287346A3
 /// @DnDArgument : "var" "enemycreate"
-/// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "2"
-if(enemycreate > 2)
+/// @DnDArgument : "op" "3"
+/// @DnDArgument : "value" "global.level + 1"
+if(enemycreate <= global.level + 1)
 {
 	/// @DnDAction : YoYo Games.Random.Choose
 	/// @DnDVersion : 1

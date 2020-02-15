@@ -4,16 +4,16 @@
 /// @DnDArgument : "var" "ballcreate"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "5"
-var ballcreate = floor(random_range(0, 5 + 1));
+/// @DnDArgument : "max" "15"
+var ballcreate = floor(random_range(0, 15 + 1));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5181C32F
 /// @DnDArgument : "var" "ballcreate"
-/// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "3"
-if(ballcreate > 3)
+/// @DnDArgument : "op" "3"
+/// @DnDArgument : "value" "global.level + 1"
+if(ballcreate <= global.level + 1)
 {
 	/// @DnDAction : YoYo Games.Random.Choose
 	/// @DnDVersion : 1

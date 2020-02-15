@@ -3,16 +3,16 @@
 /// @DnDHash : 1C9ED1BD
 /// @DnDArgument : "var" "cranecreate"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "5"
-cranecreate = floor(random_range(0, 5 + 1));
+/// @DnDArgument : "max" "15"
+cranecreate = floor(random_range(0, 15 + 1));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6A207615
 /// @DnDArgument : "var" "cranecreate"
-/// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "4"
-if(cranecreate > 4)
+/// @DnDArgument : "op" "3"
+/// @DnDArgument : "value" "global.level + 1"
+if(cranecreate <= global.level + 1)
 {
 	/// @DnDAction : YoYo Games.Random.Choose
 	/// @DnDVersion : 1

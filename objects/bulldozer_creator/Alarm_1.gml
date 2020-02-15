@@ -4,16 +4,16 @@
 /// @DnDArgument : "var" "bulldozercreate"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "5"
-var bulldozercreate = floor(random_range(0, 5 + 1));
+/// @DnDArgument : "max" "12"
+var bulldozercreate = floor(random_range(0, 12 + 1));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5181C32F
 /// @DnDArgument : "var" "bulldozercreate"
-/// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "3"
-if(bulldozercreate > 3)
+/// @DnDArgument : "op" "3"
+/// @DnDArgument : "value" "global.level + 1"
+if(bulldozercreate <= global.level + 1)
 {
 	/// @DnDAction : YoYo Games.Random.Choose
 	/// @DnDVersion : 1

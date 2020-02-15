@@ -47,10 +47,11 @@ if(global.playerinput == "yes")
 	/// @DnDHash : 2EA871CB
 	/// @DnDParent : 52EE8FE6
 	/// @DnDArgument : "var" "bricknumber"
+	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "min" "2"
 	/// @DnDArgument : "max" "6"
-	bricknumber = floor(random_range(2, 6 + 1));
+	var bricknumber = floor(random_range(2, 6 + 1));
 
 	/// @DnDAction : YoYo Games.Loops.Repeat
 	/// @DnDVersion : 1
@@ -64,17 +65,19 @@ if(global.playerinput == "yes")
 		/// @DnDHash : 529C854E
 		/// @DnDParent : 452DA3E8
 		/// @DnDArgument : "var" "randomx"
+		/// @DnDArgument : "var_temp" "1"
 		/// @DnDArgument : "min" "-50"
 		/// @DnDArgument : "max" "50"
-		randomx = (random_range(-50, 50));
+		var randomx = (random_range(-50, 50));
 	
 		/// @DnDAction : YoYo Games.Random.Get_Random_Number
 		/// @DnDVersion : 1
 		/// @DnDHash : 7A9ED418
 		/// @DnDParent : 452DA3E8
 		/// @DnDArgument : "var" "randomy"
+		/// @DnDArgument : "var_temp" "1"
 		/// @DnDArgument : "max" "40"
-		randomy = (random_range(0, 40));
+		var randomy = (random_range(0, 40));
 	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1

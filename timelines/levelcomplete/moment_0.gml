@@ -90,3 +90,11 @@ audio_stop_sound(Gameplay_Music);
 /// @DnDSaveInfo : "spriteind" "7f889a7a-5297-4df9-af0a-d3f53cb36692"
 sprite_index = ralphcelebrates_sprite;
 image_index = 0;
+
+/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDVersion : 1
+/// @DnDHash : 21C4AE05
+/// @DnDArgument : "x" "240"
+/// @DnDArgument : "y" "140"
+x = 240;
+y = 140;

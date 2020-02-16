@@ -10,3 +10,5 @@ Down = Down_Arrow
 Up = Up_Arrow
 Ctrl = Smash
 Alt = Throw
+Esc = Quit Game
+F12 = Toggle Fullscreen

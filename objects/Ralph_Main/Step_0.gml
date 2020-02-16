@@ -1,10 +1,27 @@
 /// @DnDAction : YoYo Games.Instance Variables.If_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 46FEC3C7
-/// @DnDArgument : "op" "1"
+/// @DnDArgument : "value" "-1"
 if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
-if(__dnd_lives < 0)
+if(__dnd_lives == -1)
 {
+	/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+	/// @DnDVersion : 1
+	/// @DnDHash : 03FBC78E
+	/// @DnDParent : 46FEC3C7
+	/// @DnDArgument : "state" "3"
+	timeline_running = false;
+	timeline_position = 0;
+
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+	/// @DnDVersion : 1
+	/// @DnDHash : 55EEE171
+	/// @DnDParent : 46FEC3C7
+	/// @DnDArgument : "lives" "-1"
+	/// @DnDArgument : "lives_relative" "1"
+	if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
+	__dnd_lives += real(-1);
+
 	/// @DnDAction : YoYo Games.Timelines.Set_Timeline
 	/// @DnDVersion : 1
 	/// @DnDHash : 310BF160

@@ -16,8 +16,9 @@ immunity = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 51357B0A
 /// @DnDArgument : "target" "currentspeed"
+/// @DnDArgument : "target_temp" "1"
 /// @DnDArgument : "instvar" "7"
-currentspeed = speed;
+var currentspeed = speed;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

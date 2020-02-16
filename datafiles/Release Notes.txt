@@ -1,5 +1,9 @@
 [Release Notes]
 
+0.026
+-Better handle zero live scenario
+-Additional sounds added
+
 0.024
 -Opening cinematic in
 -Additional sounds and song inserted

@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0a0a929c-2f8e-4a7e-b71e-bf80aab548a4",
+            "Value": {
+                "id": "13bab708-a965-4920-b096-b4bc93b0e4b9",
+                "resourcePath": "sounds\\FloorComplete_Sound\\FloorComplete_Sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0b8f76c5-0f4e-4bc2-a4d1-322e42c9148a",
             "Value": {
                 "id": "ecb530d6-015b-4d23-a18d-8cea7baecba8",
@@ -340,6 +348,14 @@
                 "id": "84ea053d-988e-4ddd-be8d-72ad7a6324d9",
                 "resourcePath": "rooms\\Score_RoomScores\\Score_RoomScores.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "494ae701-e392-4e54-bd77-fd8e86277017",
+            "Value": {
+                "id": "836ffa79-bc20-4ea7-8c5d-2c75143c9f4c",
+                "resourcePath": "sounds\\Oneup_Sound\\Oneup_Sound.yy",
+                "resourceType": "GMSound"
             }
         },
         {

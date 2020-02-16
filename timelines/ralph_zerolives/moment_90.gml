@@ -11,3 +11,14 @@ image_speed = 0;
 /// @DnDSaveInfo : "spriteind" "d4249da0-931c-4e0b-8fd9-87d6ec3a7991"
 sprite_index = Ralph_Dead_Sprite;
 image_index = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6CD30615
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "expr_1" ""no""
+/// @DnDArgument : "var" "immunity"
+/// @DnDArgument : "var_1" "global.playerinput"
+immunity = 1;
+global.playerinput = "no";

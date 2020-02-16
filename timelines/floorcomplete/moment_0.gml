@@ -83,32 +83,12 @@ with(bulldozer) instance_destroy();
 /// @DnDSaveInfo : "soundid" "b37b162b-4d7a-43d5-8738-83d70f9ae941"
 audio_stop_sound(Gameplay_Music);
 
-/// @DnDAction : YoYo Games.Instances.Set_Sprite
-/// @DnDVersion : 1
-/// @DnDHash : 5CD62630
-/// @DnDArgument : "spriteind" "Ralph_Climb_Long"
-/// @DnDSaveInfo : "spriteind" "0444554a-b55e-4330-9988-ba9810bd6bbc"
-sprite_index = Ralph_Climb_Long;
-image_index = 0;
-
-/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
-/// @DnDVersion : 1.1
-/// @DnDHash : 4CC3E3BD
-/// @DnDArgument : "direction" "270"
-direction = 270;
-
-/// @DnDAction : YoYo Games.Movement.Set_Speed
-/// @DnDVersion : 1
-/// @DnDHash : 031183A6
-/// @DnDArgument : "speed" "4"
-speed = 4;
-
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
-/// @DnDHash : 10A3AFD2
-/// @DnDArgument : "soundid" "FloorComplete_GoDown"
-/// @DnDSaveInfo : "soundid" "70f5b69a-99c1-4ee2-a439-5c183f99f30e"
-audio_play_sound(FloorComplete_GoDown, 0, 0);
+/// @DnDHash : 0E66C18A
+/// @DnDArgument : "soundid" "FloorComplete_Sound"
+/// @DnDSaveInfo : "soundid" "0a0a929c-2f8e-4a7e-b71e-bf80aab548a4"
+audio_play_sound(FloorComplete_Sound, 0, 0);
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 554351BA
+/// @DnDArgument : "speed" "0.0001"
+speed = 0.0001;
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 0DD3B7C0

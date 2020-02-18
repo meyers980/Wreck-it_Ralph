@@ -1,5 +1,9 @@
 [Release Notes]
 
+0.028
+-5 or 6 now adds coins
+-Game starts fullscreen and hides mouse (F12 to leave fullscreen)
+
 0.026
 -Better handle zero live scenario
 -Additional sounds added

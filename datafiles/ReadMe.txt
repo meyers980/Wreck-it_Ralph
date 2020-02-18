@@ -3,6 +3,7 @@ This is a fan creation of a fictional game. Not for distribution or sale, home u
 Wreck-It Ralph Arcade Game
 [Controls - Cannot currently be changed]
 Coin = 5
+Coin = 6
 1P Start = 1
 Left = Left_Arrow
 Right = Right_Arrow

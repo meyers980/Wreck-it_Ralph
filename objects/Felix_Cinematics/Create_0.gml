@@ -21,7 +21,8 @@ var felixcinecount = instance_number(Felix_Cinematics);
 /// @DnDHash : 1FC4BA4C
 /// @DnDArgument : "var" "felixcount + felixcinecount"
 /// @DnDArgument : "op" "2"
-if(felixcount + felixcinecount > 0)
+/// @DnDArgument : "value" "1"
+if(felixcount + felixcinecount > 1)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
@@ -29,6 +30,13 @@ if(felixcount + felixcinecount > 0)
 	/// @DnDParent : 1FC4BA4C
 	instance_destroy();
 }
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 047EDE40
+/// @DnDArgument : "soundid" "Felix_Enters_Sound"
+/// @DnDSaveInfo : "soundid" "9c21727c-a1d0-450d-b4ad-59f71135658c"
+audio_play_sound(Felix_Enters_Sound, 0, 0);
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1

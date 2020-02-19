@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "9c21727c-a1d0-450d-b4ad-59f71135658c",
+            "Value": {
+                "id": "c89c2f21-bb1f-437c-9376-e6cf425e3976",
+                "resourcePath": "sounds\\Felix_Enters_Sound\\Felix_Enters_Sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9fe65426-9a7a-4d32-8c06-09775efc5722",
             "Value": {
                 "id": "4f932770-aa00-45b1-be79-0ab5c39ed47f",

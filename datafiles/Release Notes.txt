@@ -1,5 +1,8 @@
 [Release Notes]
 
+0.029
+-More than one Felix spawns, he enters from off screen
+
 0.028
 -5 or 6 now adds coins
 -Game starts fullscreen and hides mouse (F12 to leave fullscreen)

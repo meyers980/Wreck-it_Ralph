@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "155fef4c-8b68-43d1-9c74-396fb29b1a43",
+            "Value": {
+                "id": "95998ae7-74cb-439d-9cf6-f59ba86fd10e",
+                "resourcePath": "objects\\Felix_Cinematics\\Felix_Cinematics.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15a8bfe0-3fd5-4f2b-a9e3-d53a54827a23",
             "Value": {
                 "id": "dff1219e-1522-41bf-9980-33ee090cc5c5",
@@ -855,6 +863,14 @@
             }
         },
         {
+            "Key": "b2962798-bb14-4404-9d0e-badd89784f82",
+            "Value": {
+                "id": "5b76849f-29ac-418c-aa2f-8c08768738d3",
+                "resourcePath": "sprites\\Felix_Dying\\Felix_Dying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b36ad3a1-10ad-4d3b-a080-c2121b42cd4a",
             "Value": {
                 "id": "3bfe9aed-e408-4ca9-b89e-5ad194809aba",
@@ -1012,6 +1028,14 @@
                 "id": "e104eb67-4fad-4ae2-bb12-e406b0b09ba1",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d3c21fa6-e20e-4904-b587-6472699073d5",
+            "Value": {
+                "id": "8709106a-f17c-457c-a6dc-6f24b56bcc3f",
+                "resourcePath": "objects\\Felix_Creator\\Felix_Creator.yy",
+                "resourceType": "GMObject"
             }
         },
         {

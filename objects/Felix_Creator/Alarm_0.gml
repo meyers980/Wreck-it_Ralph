@@ -4,8 +4,8 @@
 /// @DnDArgument : "var" "enemycreate"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "10"
-var enemycreate = floor(random_range(0, 10 + 1));
+/// @DnDArgument : "max" "13"
+var enemycreate = floor(random_range(0, 13 + 1));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

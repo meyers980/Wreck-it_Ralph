@@ -1,5 +1,9 @@
 [Release Notes]
 
+1.000
+-I'm happy to say this is version 1.0! 
+-Adjusted initial entry, to make it more clear when you're done entering initials
+
 0.029
 -More than one Felix spawns, he enters from off screen
 

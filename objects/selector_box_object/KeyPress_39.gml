@@ -10,8 +10,8 @@ var boxx = x;
 /// @DnDHash : 6A15EEC8
 /// @DnDArgument : "var" "boxx"
 /// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "265"
-if(boxx < 265)
+/// @DnDArgument : "value" "295"
+if(boxx < 295)
 {
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1

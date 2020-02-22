@@ -23,6 +23,15 @@ license = ini_read_real("settings", "license", "0");
 /// @DnDArgument : "default" ""true""
 savescores = ini_read_string("settings", "savescores", "true");
 
+/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDVersion : 1
+/// @DnDHash : 4D36FDF8
+/// @DnDArgument : "var" "global.freeplay"
+/// @DnDArgument : "section" ""settings""
+/// @DnDArgument : "key" ""freeplay""
+/// @DnDArgument : "default" ""false""
+global.freeplay = ini_read_string("settings", "freeplay", "false");
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 42376B09

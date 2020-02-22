@@ -1,7 +1,7 @@
 This is a fan creation of a fictional game. Not for distribution or sale, home use only. Meant to simulate if the fictional company Tobikomi created a standalone Wreck-it Ralph Arcade Game to pair with their Fix-it Felix machines.
 
 Wreck-It Ralph Arcade Game
-[Controls - Cannot currently be changed]
+[Default Controls below. To customize controls, find the UTF-8 Code for the key you'd like to use. Convert that number to decimal and set it in the settings.ini file. Changing values below will have NO EFFECT. Must change in settings.ini
 Coin = 5
 Coin = 6
 1P Start = 1

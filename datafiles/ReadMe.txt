@@ -13,3 +13,5 @@ Ctrl = Smash
 Alt = Throw
 Esc = Quit Game
 F12 = Toggle Fullscreen
+
+This page can help you get the hex value for most keys: https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes

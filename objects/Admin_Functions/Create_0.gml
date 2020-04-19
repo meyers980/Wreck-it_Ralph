@@ -41,7 +41,7 @@ ini_open("settings.ini");
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 204BC2C3
-/// @DnDArgument : "code" "Coin_1 = ini_read_real("Controls", "Coin_1", 53);$(13_10)Coin_2 = ini_read_real("Controls", "Coin_2", 54);$(13_10)Start_1 = ini_read_real("Controls", "Start_1", 49);$(13_10)Player_Left = ini_read_real("Controls", "Player_Left", 37);$(13_10)Player_Right = ini_read_real("Controls", "Player_Right", 39);$(13_10)Player_Up = ini_read_real("Controls", "Player_Up", 38);$(13_10)Player_Down = ini_read_real("Controls", "Player_Down", 40);$(13_10)Player_Smash = ini_read_real("Controls", "Player_Smash", 162);$(13_10)Player_Throw = ini_read_real("Controls", "Player_Throw", 164);$(13_10)$(13_10)//Coin 1$(13_10)keyboard_set_map(Coin_1, 53);$(13_10)//Coin 2$(13_10)keyboard_set_map(Coin_2, 54);$(13_10)//1 Start$(13_10)keyboard_set_map(Start_1, 49);$(13_10)//Left$(13_10)keyboard_set_map(Player_Left, 37);$(13_10)//Right$(13_10)keyboard_set_map(Player_Right, 39);$(13_10)//Up$(13_10)keyboard_set_map(Player_Up, 38);$(13_10)//Down$(13_10)keyboard_set_map(Player_Down, 40);$(13_10)//Ctrl$(13_10)keyboard_set_map(Player_Smash, 162);$(13_10)//Alt$(13_10)keyboard_set_map(Player_Throw, 164);"
+/// @DnDArgument : "code" "Coin_1 = ini_read_real("Controls", "Coin_1", 53);$(13_10)Coin_2 = ini_read_real("Controls", "Coin_2", 54);$(13_10)Start_1 = ini_read_real("Controls", "Start_1", 49);$(13_10)Player_Left = ini_read_real("Controls", "Player_Left", 37);$(13_10)Player_Right = ini_read_real("Controls", "Player_Right", 39);$(13_10)Player_Up = ini_read_real("Controls", "Player_Up", 38);$(13_10)Player_Down = ini_read_real("Controls", "Player_Down", 40);$(13_10)Player_Smash = ini_read_real("Controls", "Player_Smash", 162);$(13_10)Player_Throw = ini_read_real("Controls", "Player_Throw", 164);$(13_10)Exit = ini_read_real("Controls", "Exit", 27);$(13_10)$(13_10)//Coin 1$(13_10)keyboard_set_map(Coin_1, ord("5"));$(13_10)//Coin 2$(13_10)keyboard_set_map(Coin_2, ord("6"));$(13_10)//1 Start$(13_10)keyboard_set_map(Start_1, ord("1"));$(13_10)//Left$(13_10)keyboard_set_map(Player_Left, vk_left);$(13_10)//Right$(13_10)keyboard_set_map(Player_Right, vk_right);$(13_10)//Up$(13_10)keyboard_set_map(Player_Up, vk_up);$(13_10)//Down$(13_10)keyboard_set_map(Player_Down, vk_down);$(13_10)//Ctrl$(13_10)keyboard_set_map(Player_Smash, vk_control);$(13_10)//Alt$(13_10)keyboard_set_map(Player_Throw, vk_alt);$(13_10)//Exit$(13_10)keyboard_set_map(Exit, vk_escape);"
 Coin_1 = ini_read_real("Controls", "Coin_1", 53);
 Coin_2 = ini_read_real("Controls", "Coin_2", 54);
 Start_1 = ini_read_real("Controls", "Start_1", 49);
@@ -51,25 +51,28 @@ Player_Up = ini_read_real("Controls", "Player_Up", 38);
 Player_Down = ini_read_real("Controls", "Player_Down", 40);
 Player_Smash = ini_read_real("Controls", "Player_Smash", 162);
 Player_Throw = ini_read_real("Controls", "Player_Throw", 164);
+Exit = ini_read_real("Controls", "Exit", 27);
 
 //Coin 1
-keyboard_set_map(Coin_1, 53);
+keyboard_set_map(Coin_1, ord("5"));
 //Coin 2
-keyboard_set_map(Coin_2, 54);
+keyboard_set_map(Coin_2, ord("6"));
 //1 Start
-keyboard_set_map(Start_1, 49);
+keyboard_set_map(Start_1, ord("1"));
 //Left
-keyboard_set_map(Player_Left, 37);
+keyboard_set_map(Player_Left, vk_left);
 //Right
-keyboard_set_map(Player_Right, 39);
+keyboard_set_map(Player_Right, vk_right);
 //Up
-keyboard_set_map(Player_Up, 38);
+keyboard_set_map(Player_Up, vk_up);
 //Down
-keyboard_set_map(Player_Down, 40);
+keyboard_set_map(Player_Down, vk_down);
 //Ctrl
-keyboard_set_map(Player_Smash, 162);
+keyboard_set_map(Player_Smash, vk_control);
 //Alt
-keyboard_set_map(Player_Throw, 164);
+keyboard_set_map(Player_Throw, vk_alt);
+//Exit
+keyboard_set_map(Exit, vk_escape);
 
 /// @DnDAction : YoYo Games.Files.Close_Ini
 /// @DnDVersion : 1

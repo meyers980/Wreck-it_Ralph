@@ -1,5 +1,8 @@
 [Release Notes]
 
+1.002
+-Fixed controls bug
+
 1.001
 -Custom controls in settings.ini
 -Freeplay option

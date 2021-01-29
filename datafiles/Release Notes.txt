@@ -1,0 +1,57 @@
+[Release Notes]
+
+1.003
+Upgraded IDE to 2.3.1 and also implemented custom resolution options.
+
+1.002
+-Fixed controls bug
+
+1.001
+-Custom controls in settings.ini
+-Freeplay option
+
+1.000
+-I'm happy to say this is version 1.0! 
+-Adjusted initial entry, to make it more clear when you're done entering initials
+-Fixed a bug with Felix spawning
+
+0.029
+-More than one Felix spawns, he enters from off screen
+
+0.028
+-5 or 6 now adds coins
+-Game starts fullscreen and hides mouse (F12 to leave fullscreen)
+
+0.026
+-Better handle zero live scenario
+-Additional sounds added
+
+0.024
+-Opening cinematic in
+-Additional sounds and song inserted
+
+0.022
+-More enemies spawn on higher levels
+-Better boot garble
+-Game starts over after no lives
+-Proper license input - each user will get their own number
+
+0.021
+-Levels increase
+-More floors added to building as levels increase
+-Felix better fixes windows
+-Small cutscene after completing level
+-Additional sounds added
+
+Beta Relase 0.010
+-All enemy types created and functional (nicelanders, cranes, bulldozers, dropped wreckingballs)
+-Felix created for bottom floor, moves around and fixes things
+-Highscore save or reset setting completed, with initials
+TO DO NEXT
+Create level tracking system to up difficulty per level
+Intro cut scene
+Sounds for some enemies when taking damage or giving damage
+Song during gameplay
+
+Alpha Releases, Up to 0.009
+-No notes kept during this time. Initial creation of assets and game

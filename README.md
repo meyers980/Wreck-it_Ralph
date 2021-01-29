@@ -1,4 +1,4 @@
-# Wreck-it_Ralph
+# Wreck-it_Ralph Arcade Software
 An arcade game starring Wreck It Ralph, where you try to destroy the building - preventing Felix from fixing it.
 
 This is a fan creation of a fictional game. Not for distribution or sale, home use only. Meant to simulate if the fictional company Tobikomi created a standalone Wreck-it Ralph Arcade Game to pair with their Fix-it Felix machines.
